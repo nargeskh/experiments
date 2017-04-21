@@ -1,0 +1,219 @@
+SMACS - a tool for Symbolic MAsked Controller Synthesis - version 1.0 
+*** Analysis...
+... in
+    [[]^(3,true)]^(1,true) ascending iterations
+    [[]^(1,false)]^(1,false) descending iterations
+    stabilization:false
+***
+********************************
+*       Forbidden states       *
+********************************
+[in loc dedeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc dedeidredeidpe4: => [|critical-1=0|];
+ in loc dedeidreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc dedeidreididpe4: => [|critical-1=0|];
+ in loc dedeidretridpd3: => [|critical-1=0|];
+ in loc dedeidretridpe4: => [|critical-1=0|];
+ in loc deididredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc deididredeidpe4: => [|critical-1=0|];
+ in loc deididreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc deididreididpe4: => [|critical-1=0|];
+ in loc deididretridpd3: => [|critical-1=0|];
+ in loc deididretridpe4: => [|critical-1=0|];
+ in loc demeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc demeidredeidpe4: => [|critical-1=0|];
+ in loc demeidreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc demeidreididpe4: => [|critical-1=0|];
+ in loc demeidretridpd3: => [|critical-1=0|];
+ in loc demeidretridpe4: => [|critical-1=0|];
+ in loc iddeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc iddeidredeidpe4: => [|critical-1=0|];
+ in loc iddeidreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc iddeidreididpe4: => [|critical-1=0|];
+ in loc iddeidretridpd3: => [|critical-1=0|];
+ in loc iddeidretridpe4: => [|critical-1=0|];
+ in loc idididredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc idididredeidpe4: => [|critical-1=0|];
+ in loc idididreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc idididreididpe4: => [|critical-1=0|];
+ in loc idididretridpd3: => [|critical-1=0|];
+ in loc idididretridpe4: => [|critical-1=0|];
+ in loc idmeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc idmeidredeidpe4: => [|critical-1=0|];
+ in loc idmeidreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc idmeidreididpe4: => [|critical-1=0|];
+ in loc idmeidretridpd3: => [|critical-1=0|];
+ in loc idmeidretridpe4: => [|critical-1=0|];
+ in loc medeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc medeidredeidpe4: => [|critical-1=0|];
+ in loc medeidreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc medeidreididpe4: => [|critical-1=0|];
+ in loc medeidretridpd3: => [|critical-1=0|];
+ in loc medeidretridpe4: => [|critical-1=0|];
+ in loc meididredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc meididredeidpe4: => [|critical-1=0|];
+ in loc meididreididpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc meididreididpe4: => [|critical-1=0|];
+ in loc meididretridpd3: => [|critical-1=0|];
+ in loc meididretridpe4: => [|critical-1=0|];
+ in loc memeidredeidpd3: => [|critical-1=0; gnum1-1>=0|];
+ in loc memeidredeidpe4: => [|critical-1=0|];
+ in loc memeidreididpd3: => [|critical-1=0; gnum1-1>=0; genergy1>=0|];
+ in loc memeidreididpe4: => [|critical-1=0|];
+ in loc memeidretridpd3: => [|critical-1=0|];
+ in loc memeidretridpe4: => [|critical-1=0|]]
+********************************
+* SMACS output (general case)  *
+********************************
+---------------------
+Controller 1 function
+---------------------
+[connsensor3gateway2=>[dedeidredeidpd3 => [|critical-1=0|];
+                       dedeidreididpd3 => [|critical-1=0|];
+                       dedeidretridpd3 => [|critical-1=0|];
+                       deididredeidpd3 => [|critical-1=0|];
+                       deididreididpd3 => [|critical-1=0|];
+                       deididretridpd3 => [|critical-1=0|];
+                       demeidredeidpd3 => [|critical-1=0|];
+                       demeidreididpd3 => [|critical-1=0|];
+                       demeidretridpd3 => [|critical-1=0|];
+                       iddeidredeidpd3 => [|critical-1=0|];
+                       iddeidreididpd3 => [|critical-1=0|];
+                       iddeidretridpd3 => [|critical-1=0|];
+                       idididredeidpd3 => [|critical-1=0|];
+                       idididreididpd3 => [|critical-1=0|];
+                       idididretridpd3 => [|critical-1=0|];
+                       idmeidredeidpd3 => [|critical-1=0|];
+                       idmeidreididpd3 => [|critical-1=0|];
+                       idmeidretridpd3 => [|critical-1=0|];
+                       medeidredeidpd3 => [|critical-1=0|];
+                       medeidreididpd3 => [|critical-1=0|];
+                       medeidretridpd3 => [|critical-1=0|];
+                       meididredeidpd3 => [|critical-1=0|];
+                       meididreididpd3 => [|critical-1=0|];
+                       meididretridpd3 => [|critical-1=0|];
+                       memeidredeidpd3 => [|critical-1=0|];
+                       memeidreididpd3 => [|critical-1=0|];
+                       memeidretridpd3 => [|critical-1=0|]];
+ forward=>[dedeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           deididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           demeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           iddeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           idididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           idmeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           medeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           meididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           memeidretridpd3 => [|critical-1=0; gnum1-2>=0; genergy1-1>=0|]];
+ reconfig=>[dedeidredeidpe4 => [|critical-1=0|];
+            dedeidreididpe4 => [|critical-1=0|];
+            dedeidretridpe4 => [|critical-1=0|];
+            deididredeidpe4 => [|critical-1=0|];
+            deididreididpe4 => [|critical-1=0|];
+            deididretridpe4 => [|critical-1=0|];
+            demeidredeidpe4 => [|critical-1=0|];
+            demeidreididpe4 => [|critical-1=0|];
+            demeidretridpe4 => [|critical-1=0|];
+            iddeidredeidpe4 => [|critical-1=0|];
+            iddeidreididpe4 => [|critical-1=0|];
+            iddeidretridpe4 => [|critical-1=0|];
+            idididredeidpe4 => [|critical-1=0|];
+            idididreididpe4 => [|critical-1=0|];
+            idididretridpe4 => [|critical-1=0|];
+            idmeidredeidpe4 => [|critical-1=0|];
+            idmeidreididpe4 => [|critical-1=0|];
+            idmeidretridpe4 => [|critical-1=0|];
+            medeidredeidpe4 => [|critical-1=0|];
+            medeidreididpe4 => [|critical-1=0|];
+            medeidretridpe4 => [|critical-1=0|];
+            meididredeidpe4 => [|critical-1=0|];
+            meididreididpe4 => [|critical-1=0|];
+            meididretridpe4 => [|critical-1=0|];
+            memeidredeidpe4 => [|critical-1=0|];
+            memeidreididpe4 => [|critical-1=0|];
+            memeidretridpe4 => [|critical-1=0|]];
+ send=>[demeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        idmeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        medeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        meididreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        memeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|]]]
+-----------------------
+Global control function
+-----------------------
+[connsensor3gateway2=>[dedeidredeidpd3 => [|critical-1=0|];
+                       dedeidreididpd3 => [|critical-1=0|];
+                       dedeidretridpd3 => [|critical-1=0|];
+                       deididredeidpd3 => [|critical-1=0|];
+                       deididreididpd3 => [|critical-1=0|];
+                       deididretridpd3 => [|critical-1=0|];
+                       demeidredeidpd3 => [|critical-1=0|];
+                       demeidreididpd3 => [|critical-1=0|];
+                       demeidretridpd3 => [|critical-1=0|];
+                       iddeidredeidpd3 => [|critical-1=0|];
+                       iddeidreididpd3 => [|critical-1=0|];
+                       iddeidretridpd3 => [|critical-1=0|];
+                       idididredeidpd3 => [|critical-1=0|];
+                       idididreididpd3 => [|critical-1=0|];
+                       idididretridpd3 => [|critical-1=0|];
+                       idmeidredeidpd3 => [|critical-1=0|];
+                       idmeidreididpd3 => [|critical-1=0|];
+                       idmeidretridpd3 => [|critical-1=0|];
+                       medeidredeidpd3 => [|critical-1=0|];
+                       medeidreididpd3 => [|critical-1=0|];
+                       medeidretridpd3 => [|critical-1=0|];
+                       meididredeidpd3 => [|critical-1=0|];
+                       meididreididpd3 => [|critical-1=0|];
+                       meididretridpd3 => [|critical-1=0|];
+                       memeidredeidpd3 => [|critical-1=0|];
+                       memeidreididpd3 => [|critical-1=0|];
+                       memeidretridpd3 => [|critical-1=0|]];
+ forward=>[dedeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           deididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           demeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           iddeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           idididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           idmeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           medeidretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           meididretridpd3 => [|critical-1=0; gnum1-2>=0|];
+           memeidretridpd3 => [|critical-1=0; gnum1-2>=0; genergy1-1>=0|]];
+ reconfig=>[dedeidredeidpe4 => [|critical-1=0|];
+            dedeidreididpe4 => [|critical-1=0|];
+            dedeidretridpe4 => [|critical-1=0|];
+            deididredeidpe4 => [|critical-1=0|];
+            deididreididpe4 => [|critical-1=0|];
+            deididretridpe4 => [|critical-1=0|];
+            demeidredeidpe4 => [|critical-1=0|];
+            demeidreididpe4 => [|critical-1=0|];
+            demeidretridpe4 => [|critical-1=0|];
+            iddeidredeidpe4 => [|critical-1=0|];
+            iddeidreididpe4 => [|critical-1=0|];
+            iddeidretridpe4 => [|critical-1=0|];
+            idididredeidpe4 => [|critical-1=0|];
+            idididreididpe4 => [|critical-1=0|];
+            idididretridpe4 => [|critical-1=0|];
+            idmeidredeidpe4 => [|critical-1=0|];
+            idmeidreididpe4 => [|critical-1=0|];
+            idmeidretridpe4 => [|critical-1=0|];
+            medeidredeidpe4 => [|critical-1=0|];
+            medeidreididpe4 => [|critical-1=0|];
+            medeidretridpe4 => [|critical-1=0|];
+            meididredeidpe4 => [|critical-1=0|];
+            meididreididpe4 => [|critical-1=0|];
+            meididretridpe4 => [|critical-1=0|];
+            memeidredeidpe4 => [|critical-1=0|];
+            memeidreididpe4 => [|critical-1=0|];
+            memeidretridpe4 => [|critical-1=0|]];
+ send=>[demeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        idmeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        medeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        meididreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|];
+        memeidreididpd3 => [|gnum1>=0; gbs1-gnum1-1>=0|]]]
+Controlled system written in file controlled_test.sts
+Total number of loops in the fixpoint computations: 0
+Execution times:       0.55 s   (total)
+                       0.00 s   (parsing)
+                       0.00 s   (consistency check)
+                       0.20 s   (Computation of coreach(Bad))
+Maximum heap size:     5.75 MiB
+********************************
+********** THE END *************
+********************************

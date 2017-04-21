@@ -1,0 +1,221 @@
+SMACS - a tool for Symbolic MAsked Controller Synthesis - version 1.0 
+*** Analysis...
+... in
+    [[]^(3,true)]^(1,true) ascending iterations
+    [[]^(1,false)]^(1,false) descending iterations
+    stabilization:false
+***
+********************************
+*       Forbidden states       *
+********************************
+[in loc dedeidredeidpb1: => top;
+ in loc dedeidredeidpc2: => top;
+ in loc dedeidreididpb1: => top;
+ in loc dedeidreididpc2: => top;
+ in loc dedeidretridpb1: => top;
+ in loc dedeidretridpc2: => top;
+ in loc deididredeidpb1: => top;
+ in loc deididredeidpc2: => top;
+ in loc deididreididpb1: => top;
+ in loc deididreididpc2: => top;
+ in loc deididretridpb1: => top;
+ in loc deididretridpc2: => top;
+ in loc demeidredeidpb1: => top;
+ in loc demeidredeidpc2: => top;
+ in loc demeidreididpb1: => top;
+ in loc demeidreididpc2: => top;
+ in loc demeidretridpb1: => top;
+ in loc demeidretridpc2: => top;
+ in loc iddeidredeidpb1: => top;
+ in loc iddeidredeidpc2: => top;
+ in loc iddeidreididpb1: => top;
+ in loc iddeidreididpc2: => top;
+ in loc iddeidretridpb1: => top;
+ in loc iddeidretridpc2: => top;
+ in loc idididredeidpb1: => top;
+ in loc idididredeidpc2: => top;
+ in loc idididreididpb1: => top;
+ in loc idididreididpc2: => top;
+ in loc idididretridpb1: => top;
+ in loc idididretridpc2: => top;
+ in loc idmeidredeidpb1: => top;
+ in loc idmeidredeidpc2: => top;
+ in loc idmeidreididpb1: => top;
+ in loc idmeidreididpc2: => top;
+ in loc idmeidretridpb1: => [|senergy1>=0|];
+ in loc idmeidretridpc2: => [|senergy1>=0|];
+ in loc medeidredeidpb1: => [|senergy1-2>=0|];
+ in loc medeidredeidpc2: => [|senergy1-2>=0|];
+ in loc medeidreididpb1: => [|senergy1-2>=0|];
+ in loc medeidreididpc2: => [|senergy1-2>=0|];
+ in loc medeidretridpb1: => [|senergy1-2>=0|];
+ in loc medeidretridpc2: => [|senergy1-2>=0|];
+ in loc meididredeidpb1: => [|senergy1-2>=0|];
+ in loc meididredeidpc2: => [|senergy1-2>=0|];
+ in loc meididreididpb1: => [|senergy1-2>=0|];
+ in loc meididreididpc2: => [|senergy1-2>=0|];
+ in loc meididretridpb1: => [|senergy1-2>=0|];
+ in loc meididretridpc2: => [|senergy1-2>=0|];
+ in loc memeidredeidpb1: => [|senergy1-2>=0|];
+ in loc memeidredeidpc2: => [|senergy1-2>=0|];
+ in loc memeidreididpb1: => [|senergy1-2>=0|];
+ in loc memeidreididpc2: => [|senergy1-2>=0|];
+ in loc memeidretridpb1: => [|senergy1-2>=0|];
+ in loc memeidretridpc2: => [|senergy1-2>=0|]]
+********************************
+* SMACS output (general case)  *
+********************************
+---------------------
+Controller 1 function
+---------------------
+[addsensor3=>[dedeidredeidpb1 => top;
+              dedeidreididpb1 => top;
+              dedeidretridpb1 => top;
+              deididredeidpb1 => top;
+              deididreididpb1 => top;
+              deididretridpb1 => top;
+              demeidredeidpb1 => top;
+              demeidreididpb1 => top;
+              demeidretridpb1 => top;
+              iddeidredeidpb1 => top;
+              iddeidreididpb1 => top;
+              iddeidretridpb1 => top;
+              idididredeidpb1 => top;
+              idididreididpb1 => top;
+              idididretridpb1 => top;
+              idmeidredeidpb1 => top;
+              idmeidreididpb1 => top;
+              idmeidretridpb1 => [|senergy1>=0|];
+              medeidredeidpb1 => [|senergy1-2>=0|];
+              medeidreididpb1 => [|senergy1-2>=0|];
+              medeidretridpb1 => [|senergy1-2>=0|];
+              meididredeidpb1 => [|senergy1-2>=0|];
+              meididreididpb1 => [|senergy1-2>=0|];
+              meididretridpb1 => [|senergy1-2>=0|];
+              memeidredeidpb1 => [|senergy1-2>=0|];
+              memeidreididpb1 => [|senergy1-2>=0|];
+              memeidretridpb1 => [|senergy1-2>=0|]];
+ forward=>[dedeidretridpb1 => [|gnum1-1>=0|];
+           deididretridpb1 => [|gnum1-1>=0|];
+           demeidretridpb1 => [|gnum1-1>=0|];
+           iddeidretridpb1 => [|gnum1-1>=0|];
+           idididretridpb1 => [|gnum1-1>=0|];
+           idmeidretridpb1 => [|gnum1-1>=0|];
+           medeidretridpb1 => [|senergy1-2>=0; gnum1-1>=0|];
+           meididretridpb1 => [|senergy1-2>=0; gnum1-1>=0|];
+           memeidretridpb1 => [|senergy1-2>=0; gnum1-1>=0|]];
+ reconfig=>[dedeidredeidpc2 => top;
+            dedeidreididpc2 => top;
+            dedeidretridpc2 => top;
+            deididredeidpc2 => top;
+            deididreididpc2 => top;
+            deididretridpc2 => top;
+            demeidredeidpc2 => top;
+            demeidreididpb1 => top;
+            demeidreididpc2 => top;
+            demeidretridpc2 => top;
+            iddeidredeidpc2 => top;
+            iddeidreididpc2 => top;
+            iddeidretridpc2 => top;
+            idididredeidpc2 => top;
+            idididreididpc2 => top;
+            idididretridpc2 => top;
+            idmeidredeidpc2 => top;
+            idmeidreididpc2 => top;
+            idmeidretridpc2 => [|senergy1>=0|];
+            medeidredeidpc2 => [|senergy1-2>=0|];
+            medeidreididpc2 => [|senergy1-2>=0|];
+            medeidretridpc2 => [|senergy1-2>=0|];
+            meididredeidpc2 => [|senergy1-2>=0|];
+            meididreididpc2 => [|senergy1-2>=0|];
+            meididretridpc2 => [|senergy1-2>=0|];
+            memeidredeidpc2 => [|senergy1-2>=0|];
+            memeidreididpc2 => [|senergy1-2>=0|];
+            memeidretridpc2 => [|senergy1-2>=0|]];
+ send=>[demeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        medeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        meididreididpb1 => [|gbs1-gnum1-1>=0|];
+        memeidreididpb1 => [|gbs1-gnum1-1>=0|]]]
+-----------------------
+Global control function
+-----------------------
+[addsensor3=>[dedeidredeidpb1 => top;
+              dedeidreididpb1 => top;
+              dedeidretridpb1 => top;
+              deididredeidpb1 => top;
+              deididreididpb1 => top;
+              deididretridpb1 => top;
+              demeidredeidpb1 => top;
+              demeidreididpb1 => top;
+              demeidretridpb1 => top;
+              iddeidredeidpb1 => top;
+              iddeidreididpb1 => top;
+              iddeidretridpb1 => top;
+              idididredeidpb1 => top;
+              idididreididpb1 => top;
+              idididretridpb1 => top;
+              idmeidredeidpb1 => top;
+              idmeidreididpb1 => top;
+              idmeidretridpb1 => [|senergy1>=0|];
+              medeidredeidpb1 => [|senergy1-2>=0|];
+              medeidreididpb1 => [|senergy1-2>=0|];
+              medeidretridpb1 => [|senergy1-2>=0|];
+              meididredeidpb1 => [|senergy1-2>=0|];
+              meididreididpb1 => [|senergy1-2>=0|];
+              meididretridpb1 => [|senergy1-2>=0|];
+              memeidredeidpb1 => [|senergy1-2>=0|];
+              memeidreididpb1 => [|senergy1-2>=0|];
+              memeidretridpb1 => [|senergy1-2>=0|]];
+ forward=>[dedeidretridpb1 => [|gnum1-1>=0|];
+           deididretridpb1 => [|gnum1-1>=0|];
+           demeidretridpb1 => [|gnum1-1>=0|];
+           iddeidretridpb1 => [|gnum1-1>=0|];
+           idididretridpb1 => [|gnum1-1>=0|];
+           idmeidretridpb1 => [|gnum1-1>=0|];
+           medeidretridpb1 => [|senergy1-2>=0; gnum1-1>=0|];
+           meididretridpb1 => [|senergy1-2>=0; gnum1-1>=0|];
+           memeidretridpb1 => [|senergy1-2>=0; gnum1-1>=0|]];
+ reconfig=>[dedeidredeidpc2 => top;
+            dedeidreididpc2 => top;
+            dedeidretridpc2 => top;
+            deididredeidpc2 => top;
+            deididreididpc2 => top;
+            deididretridpc2 => top;
+            demeidredeidpc2 => top;
+            demeidreididpb1 => top;
+            demeidreididpc2 => top;
+            demeidretridpc2 => top;
+            iddeidredeidpc2 => top;
+            iddeidreididpc2 => top;
+            iddeidretridpc2 => top;
+            idididredeidpc2 => top;
+            idididreididpc2 => top;
+            idididretridpc2 => top;
+            idmeidredeidpc2 => top;
+            idmeidreididpc2 => top;
+            idmeidretridpc2 => [|senergy1>=0|];
+            medeidredeidpc2 => [|senergy1-2>=0|];
+            medeidreididpc2 => [|senergy1-2>=0|];
+            medeidretridpc2 => [|senergy1-2>=0|];
+            meididredeidpc2 => [|senergy1-2>=0|];
+            meididreididpc2 => [|senergy1-2>=0|];
+            meididretridpc2 => [|senergy1-2>=0|];
+            memeidredeidpc2 => [|senergy1-2>=0|];
+            memeidreididpc2 => [|senergy1-2>=0|];
+            memeidretridpc2 => [|senergy1-2>=0|]];
+ send=>[demeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        medeidreididpb1 => [|gbs1-gnum1-1>=0|];
+        meididreididpb1 => [|gbs1-gnum1-1>=0|];
+        memeidreididpb1 => [|gbs1-gnum1-1>=0|]]]
+Controlled system written in file controlled_test.sts
+Total number of loops in the fixpoint computations: 0
+Execution times:       0.57 s   (total)
+                       0.00 s   (parsing)
+                       0.00 s   (consistency check)
+                       0.21 s   (Computation of coreach(Bad))
+Maximum heap size:     5.75 MiB
+********************************
+********** THE END *************
+********************************

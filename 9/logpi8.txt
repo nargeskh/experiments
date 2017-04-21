@@ -1,0 +1,202 @@
+SMACS - a tool for Symbolic MAsked Controller Synthesis - version 1.0 
+*** Analysis...
+... in
+    [[]^(3,true)]^(1,true) ascending iterations
+    [[]^(1,false)]^(1,false) descending iterations
+    stabilization:false
+***
+********************************
+*       Forbidden states       *
+********************************
+[in loc dededereiddepi8: => top;
+ in loc dededereididpi8: => top;
+ in loc dededereidtrpi8: => top;
+ in loc dedeidreiddepi8: => top;
+ in loc dedeidreididpi8: => top;
+ in loc dedeidreidtrpi8: => top;
+ in loc dedemereiddepi8: => top;
+ in loc dedemereididpi8: => top;
+ in loc dedemereidtrpi8: => top;
+ in loc deiddereiddepi8: => top;
+ in loc deiddereididpi8: => top;
+ in loc deiddereidtrpi8: => top;
+ in loc deididreiddepi8: => top;
+ in loc deididreididpi8: => top;
+ in loc deididreidtrpi8: => top;
+ in loc deidmereiddepi8: => top;
+ in loc deidmereididpi8: => top;
+ in loc deidmereidtrpi8: => top;
+ in loc demedereiddepi8: => top;
+ in loc demedereididpi8: => top;
+ in loc demedereidtrpi8: => top;
+ in loc demeidreiddepi8: => top;
+ in loc demeidreididpi8: => top;
+ in loc demeidreidtrpi8: => top;
+ in loc dememereiddepi8: => top;
+ in loc dememereididpi8: => top;
+ in loc dememereidtrpi8: => top;
+ in loc iddedereiddepi8: => top;
+ in loc iddedereididpi8: => top;
+ in loc iddedereidtrpi8: => top;
+ in loc iddeidreiddepi8: => top;
+ in loc iddeidreididpi8: => top;
+ in loc iddeidreidtrpi8: => top;
+ in loc iddemereiddepi8: => top;
+ in loc iddemereididpi8: => top;
+ in loc iddemereidtrpi8: => top;
+ in loc ididdereiddepi8: => top;
+ in loc ididdereididpi8: => top;
+ in loc ididdereidtrpi8: => top;
+ in loc idididreiddepi8: => top;
+ in loc idididreididpi8: => top;
+ in loc idididreidtrpi8: => top;
+ in loc ididmereiddepi8: => top;
+ in loc ididmereididpi8: => top;
+ in loc ididmereidtrpi8: => top;
+ in loc idmedereiddepi8: => top;
+ in loc idmedereididpi8: => top;
+ in loc idmedereidtrpi8: => top;
+ in loc idmeidreiddepi8: => top;
+ in loc idmeidreididpi8: => top;
+ in loc idmeidreidtrpi8: => top;
+ in loc idmemereiddepi8: => top;
+ in loc idmemereididpi8: => top;
+ in loc idmemereidtrpi8: => [|senergy1>=0|];
+ in loc mededereiddepi8: => [|senergy1-2>=0|];
+ in loc mededereididpi8: => [|senergy1-2>=0|];
+ in loc mededereidtrpi8: => [|senergy1-2>=0|];
+ in loc medeidreiddepi8: => [|senergy1-2>=0|];
+ in loc medeidreididpi8: => [|senergy1-2>=0|];
+ in loc medeidreidtrpi8: => [|senergy1-2>=0|];
+ in loc medemereiddepi8: => [|senergy1-2>=0|];
+ in loc medemereididpi8: => [|senergy1-2>=0|];
+ in loc medemereidtrpi8: => [|senergy1-2>=0|];
+ in loc meiddereiddepi8: => [|senergy1-2>=0|];
+ in loc meiddereididpi8: => [|senergy1-2>=0|];
+ in loc meiddereidtrpi8: => [|senergy1-2>=0|];
+ in loc meididreiddepi8: => [|senergy1-2>=0|];
+ in loc meididreididpi8: => [|senergy1-2>=0|];
+ in loc meididreidtrpi8: => [|senergy1-2>=0|];
+ in loc meidmereiddepi8: => [|senergy1-2>=0|];
+ in loc meidmereididpi8: => [|senergy1-2>=0|];
+ in loc meidmereidtrpi8: => [|senergy1-2>=0|];
+ in loc memedereiddepi8: => [|senergy1-2>=0|];
+ in loc memedereididpi8: => [|senergy1-2>=0|];
+ in loc memedereidtrpi8: => [|senergy1-2>=0|];
+ in loc memeidreiddepi8: => [|senergy1-2>=0|];
+ in loc memeidreididpi8: => [|senergy1-2>=0|];
+ in loc memeidreidtrpi8: => [|senergy1-2>=0|];
+ in loc mememereiddepi8: => [|senergy1-2>=0|];
+ in loc mememereididpi8: => [|senergy1-2>=0|];
+ in loc mememereidtrpi8: => [|senergy1-2>=0|]]
+********************************
+* SMACS output (general case)  *
+********************************
+---------------------
+Controller 1 function
+---------------------
+[forward=>[dededereidtrpi8 => [|gnum2-1>=0|];
+           dedeidreidtrpi8 => [|gnum2-1>=0|];
+           dedemereidtrpi8 => [|gnum2-1>=0|];
+           deiddereidtrpi8 => [|gnum2-1>=0|];
+           deididreidtrpi8 => [|gnum2-1>=0|];
+           deidmereidtrpi8 => [|gnum2-1>=0|];
+           demedereidtrpi8 => [|gnum2-1>=0|];
+           demeidreidtrpi8 => [|gnum2-1>=0|];
+           dememereidtrpi8 => [|gnum2-1>=0|];
+           iddedereidtrpi8 => [|gnum2-1>=0|];
+           iddeidreidtrpi8 => [|gnum2-1>=0|];
+           iddemereidtrpi8 => [|gnum2-1>=0|];
+           ididdereidtrpi8 => [|gnum2-1>=0|];
+           idididreidtrpi8 => [|gnum2-1>=0|];
+           ididmereidtrpi8 => [|gnum2-1>=0|];
+           idmedereidtrpi8 => [|gnum2-1>=0|];
+           idmeidreidtrpi8 => [|gnum2-1>=0|];
+           idmemereidtrpi8 => [|gnum2-1>=0|];
+           mededereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           medeidreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           medemereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meiddereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meididreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meidmereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           memedereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           memeidreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           mememereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|]];
+ send=>[dedemereididpi8 => [|gbs2-gnum2-1>=0|];
+        deidmereididpi8 => [|gbs2-gnum2-1>=0|];
+        demedereididpi8 => [|gbs2-gnum2-1>=0|];
+        demeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        dememereididpi8 => [|gbs2-gnum2-1>=0|];
+        iddemereididpi8 => [|gbs2-gnum2-1>=0|];
+        ididmereididpi8 => [|gbs2-gnum2-1>=0|];
+        idmedereididpi8 => [|gbs2-gnum2-1>=0|];
+        idmeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        idmemereididpi8 => [|gbs2-gnum2-1>=0|];
+        mededereididpi8 => [|gbs2-gnum2-1>=0|];
+        medeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        medemereididpi8 => [|gbs2-gnum2-1>=0|];
+        meiddereididpi8 => [|gbs2-gnum2-1>=0|];
+        meididreididpi8 => [|gbs2-gnum2-1>=0|];
+        meidmereididpi8 => [|gbs2-gnum2-1>=0|];
+        memedereididpi8 => [|gbs2-gnum2-1>=0|];
+        memeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        mememereididpi8 => [|gbs2-gnum2-1>=0|]]]
+-----------------------
+Global control function
+-----------------------
+[forward=>[dededereidtrpi8 => [|gnum2-1>=0|];
+           dedeidreidtrpi8 => [|gnum2-1>=0|];
+           dedemereidtrpi8 => [|gnum2-1>=0|];
+           deiddereidtrpi8 => [|gnum2-1>=0|];
+           deididreidtrpi8 => [|gnum2-1>=0|];
+           deidmereidtrpi8 => [|gnum2-1>=0|];
+           demedereidtrpi8 => [|gnum2-1>=0|];
+           demeidreidtrpi8 => [|gnum2-1>=0|];
+           dememereidtrpi8 => [|gnum2-1>=0|];
+           iddedereidtrpi8 => [|gnum2-1>=0|];
+           iddeidreidtrpi8 => [|gnum2-1>=0|];
+           iddemereidtrpi8 => [|gnum2-1>=0|];
+           ididdereidtrpi8 => [|gnum2-1>=0|];
+           idididreidtrpi8 => [|gnum2-1>=0|];
+           ididmereidtrpi8 => [|gnum2-1>=0|];
+           idmedereidtrpi8 => [|gnum2-1>=0|];
+           idmeidreidtrpi8 => [|gnum2-1>=0|];
+           idmemereidtrpi8 => [|gnum2-1>=0|];
+           mededereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           medeidreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           medemereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meiddereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meididreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           meidmereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           memedereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           memeidreidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|];
+           mememereidtrpi8 => [|senergy1-2>=0; gnum2-1>=0|]];
+ send=>[dedemereididpi8 => [|gbs2-gnum2-1>=0|];
+        deidmereididpi8 => [|gbs2-gnum2-1>=0|];
+        demedereididpi8 => [|gbs2-gnum2-1>=0|];
+        demeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        dememereididpi8 => [|gbs2-gnum2-1>=0|];
+        iddemereididpi8 => [|gbs2-gnum2-1>=0|];
+        ididmereididpi8 => [|gbs2-gnum2-1>=0|];
+        idmedereididpi8 => [|gbs2-gnum2-1>=0|];
+        idmeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        idmemereididpi8 => [|gbs2-gnum2-1>=0|];
+        mededereididpi8 => [|gbs2-gnum2-1>=0|];
+        medeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        medemereididpi8 => [|gbs2-gnum2-1>=0|];
+        meiddereididpi8 => [|gbs2-gnum2-1>=0|];
+        meididreididpi8 => [|gbs2-gnum2-1>=0|];
+        meidmereididpi8 => [|gbs2-gnum2-1>=0|];
+        memedereididpi8 => [|gbs2-gnum2-1>=0|];
+        memeidreididpi8 => [|gbs2-gnum2-1>=0|];
+        mememereididpi8 => [|gbs2-gnum2-1>=0|]]]
+Controlled system written in file controlled_test.sts
+Total number of loops in the fixpoint computations: 0
+Execution times:       0.79 s   (total)
+                       0.00 s   (parsing)
+                       0.00 s   (consistency check)
+                       0.62 s   (Computation of coreach(Bad))
+Maximum heap size:     6.31 MiB
+********************************
+********** THE END *************
+********************************

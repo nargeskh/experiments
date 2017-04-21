@@ -1,0 +1,84 @@
+SMACS - a tool for Symbolic MAsked Controller Synthesis - version 1.0 
+*** Analysis...
+... in
+    [[]^(3,true)]^(1,true) ascending iterations
+    [[]^(1,false)]^(1,false) descending iterations
+    stabilization:false
+***
+********************************
+*       Forbidden states       *
+********************************
+[in loc dedeidredeidpc2: => top;
+ in loc dedeidreididpc2: => top;
+ in loc dedeidretridpc2: => top;
+ in loc deididredeidpc2: => top;
+ in loc deididreididpc2: => top;
+ in loc deididretridpc2: => top;
+ in loc demeidredeidpc2: => top;
+ in loc demeidreididpc2: => top;
+ in loc demeidretridpc2: => top;
+ in loc iddeidredeidpc2: => top;
+ in loc iddeidreididpc2: => top;
+ in loc iddeidretridpc2: => top;
+ in loc idididredeidpc2: => top;
+ in loc idididreididpc2: => top;
+ in loc idididretridpc2: => top;
+ in loc idmeidredeidpc2: => top;
+ in loc idmeidreididpc2: => top;
+ in loc idmeidretridpc2: => [|senergy1>=0|];
+ in loc medeidredeidpc2: => [|senergy1-2>=0|];
+ in loc medeidreididpc2: => [|senergy1-2>=0|];
+ in loc medeidretridpc2: => [|senergy1-2>=0|];
+ in loc meididredeidpc2: => [|senergy1-2>=0|];
+ in loc meididreididpc2: => [|senergy1-2>=0|];
+ in loc meididretridpc2: => [|senergy1-2>=0|];
+ in loc memeidredeidpc2: => [|senergy1-2>=0|];
+ in loc memeidreididpc2: => [|senergy1-2>=0|];
+ in loc memeidretridpc2: => [|senergy1-2>=0|]]
+********************************
+* SMACS output (general case)  *
+********************************
+---------------------
+Controller 1 function
+---------------------
+[forward=>[dedeidretridpc2 => [|gnum1-1>=0|];
+           deididretridpc2 => [|gnum1-1>=0|];
+           demeidretridpc2 => [|gnum1-1>=0|];
+           iddeidretridpc2 => [|gnum1-1>=0|];
+           idididretridpc2 => [|gnum1-1>=0|];
+           idmeidretridpc2 => [|gnum1-1>=0|];
+           medeidretridpc2 => [|senergy1-2>=0; gnum1-1>=0|];
+           meididretridpc2 => [|senergy1-2>=0; gnum1-1>=0|];
+           memeidretridpc2 => [|senergy1-2>=0; gnum1-1>=0|]];
+ send=>[demeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        medeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        meididreididpc2 => [|gbs1-gnum1-1>=0|];
+        memeidreididpc2 => [|gbs1-gnum1-1>=0|]]]
+-----------------------
+Global control function
+-----------------------
+[forward=>[dedeidretridpc2 => [|gnum1-1>=0|];
+           deididretridpc2 => [|gnum1-1>=0|];
+           demeidretridpc2 => [|gnum1-1>=0|];
+           iddeidretridpc2 => [|gnum1-1>=0|];
+           idididretridpc2 => [|gnum1-1>=0|];
+           idmeidretridpc2 => [|gnum1-1>=0|];
+           medeidretridpc2 => [|senergy1-2>=0; gnum1-1>=0|];
+           meididretridpc2 => [|senergy1-2>=0; gnum1-1>=0|];
+           memeidretridpc2 => [|senergy1-2>=0; gnum1-1>=0|]];
+ send=>[demeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        medeidreididpc2 => [|gbs1-gnum1-1>=0|];
+        meididreididpc2 => [|gbs1-gnum1-1>=0|];
+        memeidreididpc2 => [|gbs1-gnum1-1>=0|]]]
+Controlled system written in file controlled_test.sts
+Total number of loops in the fixpoint computations: 0
+Execution times:       0.22 s   (total)
+                       0.00 s   (parsing)
+                       0.00 s   (consistency check)
+                       0.17 s   (Computation of coreach(Bad))
+Maximum heap size:     5.75 MiB
+********************************
+********** THE END *************
+********************************
