@@ -1,0 +1,1 @@
+SMACS - a tool for Symbolic MAsked Controller Synthesis - version 1.0 
