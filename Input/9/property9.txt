@@ -1,0 +1,9 @@
+pa-> 2<=senergy1 and not (critical==1) ->;
+pb-> 2<=senergy1 and not (critical==1)->;
+pc-> 2<=senergy1 and not (critical==1) ->;
+pd-> 2<=senergy1 and not (critical==1) ->;
+pe-> 2<=senergy1 and not (critical==1) ->;
+pf-> 2<=senergy1 and not (critical==1) ->;
+pg-> 2<=senergy1 and not (critical==1) ->;
+ph-> 2<=senergy1 and not (critical==1) ->;
+pi-> 2<=senergy1 and not (critical==1) ->;

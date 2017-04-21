@@ -1,0 +1,18 @@
+digraph {
+pa->pb1[label="add(sensor9),true,ID"];
+pb1->pc[label= "add(sensor10),true,ID"];
+pa->pb2[label="add(sensor10),true,ID"];
+pb2->pc[label= "add(sensor9),true,ID"];
+
+pc->pd1[label= "conn(sensor8|gateway1),true,ID"];
+pd1->pe[label= "dis(sensor2|gateway1),true,ID"];
+
+pc->pd2[label= "dis(sensor2|gateway1),true,ID"];
+pd2->pe[label= "conn(sensor8|gateway1),true,ID"];
+
+pe->pf1[label= "conn(sensor7|gateway1),true,ID"];
+pf1->ph[label= "dis(sensor4|gateway1),true,ID"];
+
+pe->pf2[label= "dis(sensor4|gateway1),true,ID"];
+pf2->ph[label= "conn(sensor7|gateway1),true,ID"];
+}

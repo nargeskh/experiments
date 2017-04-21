@@ -1,0 +1,5 @@
+/Users/nkhadmin/Dropbox/Workspaces/SymbolicSynthesis/IO/Healthcare/Output/;
+init_structure;
+plan;
+property;
+int critical;

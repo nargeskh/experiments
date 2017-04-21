@@ -1,0 +1,9 @@
+digraph {
+sensor:7:5,server:1:1,gateway:1:1;
+sensor1->gateway1;
+sensor2->gateway1;
+sensor3->gateway1;
+sensor4->gateway1;
+sensor5->gateway1;
+gateway1->server1;
+}

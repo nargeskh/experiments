@@ -1,0 +1,7 @@
+digraph { 
+tenergy,tnum,tbs;idle;idle;[];
+idle->idle[label= "send?,tnum<tbs,tnum=tnum+1 "];
+idle->idle[label= "forward!,0<tnum ,tenergy=tenergy-1 /\ tnum=tnum-1"];
+idle->dead[label= "die,tenergy==0, "];
+dead->idle[label= "charge,true,tenergy=100"];
+}

@@ -1,0 +1,9 @@
+pa-> (critical==1) ->;
+pb-> (critical==1)->;
+pc-> (critical==1)->;
+pd-> (critical==1)->;
+pe-> (critical==1)->;
+pf-> (critical==1)->;
+pg-> (critical==1)->;
+ph-> (critical==1)->;
+pi-> (critical==1)->;

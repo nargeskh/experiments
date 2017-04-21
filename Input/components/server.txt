@@ -1,0 +1,5 @@
+digraph { 
+srnum;receiving;receiving;[forward];
+receiving->receiving[label= "forward?,critical==1,srnum=srnum+1 /\ critical=0"];
+receiving->receiving[label= "forward?,true ,srnum=srnum+1"];
+}

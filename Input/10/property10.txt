@@ -1,0 +1,9 @@
+pa-> gnum1 + srnum1 <= snnum1+ snnum2 ->;
+pb-> gnum1 +gnum2 + srnum1 <= snnum1+ snnum2->;
+pc-> gnum1 +gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+pd-> gnum1 +gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+pe-> gnum1 +gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+pf-> gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+pg-> gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+ph-> gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;
+pi-> gnum2 + srnum1 <= snnum1+ snnum2+ snnum3->;

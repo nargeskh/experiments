@@ -1,0 +1,8 @@
+digraph { 
+senergy,snnum;idle;idle;[send];
+idle->measuring[label= "measure,2<=senergy,senergy=senergy-1  /\ snnum=snnum+1 "];
+measuring->idle[label= "send!,true,senergy=senergy-1"];
+measuring->idle[label= "send!,true,senergy=senergy-1 /\ critical=1"];
+idle->dead[label= "dies,senergy==0, "];
+dead->idle[label= "charges,true,senergy=100"];
+}

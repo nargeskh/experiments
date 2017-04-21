@@ -1,0 +1,11 @@
+pa-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5->;
+pb1-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum7->;
+pb2-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6->;
+pc-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7 ->;
+pd1-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+pd2-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+pe-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+pf1-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+pf2-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+pg-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;
+ph-> gnum1 + srnum1 <= snnum1+ snnum2 + snnum3+ snnum4+ snnum5+ snnum6+ snnum7->;

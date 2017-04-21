@@ -1,0 +1,9 @@
+digraph { 
+genergy,gnum,gbs;idle;idle;[forward,send];
+idle->transmitting[label= "process,0<gnum~and~2<=genergy,genergy=genergy-1 "];
+transmitting->idle[label= "forward!,0<gnum ,genergy=genergy-1 /\ gnum=gnum-1"];
+transmitting->idle[label= "forward!,0<gnum ,genergy=genergy-1 /\ gnum=gnum-1"];
+idle->idle[label= "send?,gnum<gbs,gnum=gnum+1 "];
+idle->dead[label= "die,genergy==0, "];
+dead->idle[label= "charge,true,genergy=100"];
+}
