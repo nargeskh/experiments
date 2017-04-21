@@ -1,0 +1,35 @@
+digraph { 
+pb1[fillcolor = red,style=filled];
+pg6[fillcolor = red,style=filled];
+pa0[fillcolor = red,style=filled];
+ph7[fillcolor = red,style=filled];
+pc2[fillcolor = red,style=filled];
+pi8[fillcolor = red,style=filled];
+pf5[fillcolor = red,style=filled];
+pe4[fillcolor = red,style=filled];
+pd3[fillcolor = red,style=filled];
+ph7->pi8[label= "<conn(gateway2|server1),true,ID>"];
+pi8->pi8[label= " < reconfig, true, ID > "];
+pi8[fillcolor = red,style=filled];
+pf5->pg6[label= "<conn(sensor1|gateway2),true,ID>"];
+pg6->pg6[label= " < reconfig, true, ID > "];
+pg6[fillcolor = red,style=filled];
+pc2->pd3[label= "<dis(sensor1|gateway1),true,ID>"];
+pd3[fillcolor = red,style=filled];
+pb1->pc2[label= "<add(sensor3),true,ID>"];
+pc2->pc2[label= " < reconfig, true, ID > "];
+pc2[fillcolor = red,style=filled];
+pg6->ph7[label= "<conn(sensor2|gateway2),true,ID>"];
+ph7->ph7[label= " < reconfig, true, ID > "];
+ph7[fillcolor = red,style=filled];
+pe4->pf5[label= "<del(gateway1),true,ID>"];
+pf5->pf5[label= " < reconfig, true, ID > "];
+pf5[fillcolor = red,style=filled];
+pa0->pb1[label= "<add(gateway2),true,ID>"];
+pb1->pb1[label= " < reconfig, true, ID > "];
+pb1[fillcolor = red,style=filled];
+pd3->pe4[label= "<conn(sensor3|gateway2),true,ID>"];
+pe4->pe4[label= " < reconfig, true, ID > "];
+pe4[fillcolor = red,style=filled];
+
+}

@@ -1,0 +1,1034 @@
+automaton test :
+ events: 
+ 
+ C reconfig;
+ U measure;
+ U dies;
+ U charges;
+ U process;
+ U die;
+ U charge;
+ C send;
+ C forward;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;
+ C addsensor4;int senergy1;
+int snnum1;
+int senergy2;
+int snnum2;
+int senergy3;
+int snnum3;
+int srnum1;
+int genergy1;
+int gnum1;
+int gbs1;
+int genergy2;
+int gnum2;
+int gbs2;
+int critical;
+int senergy4;
+int snnum4;
+
+ initial : memeididreididpb21 , memeididredeidpb21 , idmeididreididpb21 , dedeididreididpb21 , demeididreididpb21 , meiddeidretridpb21 , idmemeidreididpb21 , ididididredeidpb21 , medeididretridpb21 , demedeidreididpb21 , dededeidretridpb21 , deidididretridpb21 , iddeididreididpb21 , idmemeidretridpb21 , meidididreididpb21 , ididmeidretridpb21 , ididdeidreididpb21 , dedeididredeidpb21 , meidmeidreididpb21 , medeididredeidpb21 , memedeidredeidpb21 , iddedeidredeidpb21 , demeididredeidpb21 , medeididreididpb21 , dememeidretridpb21 , medemeidredeidpb21 , deiddeidreididpb21 , meidididredeidpb21 , iddemeidredeidpb21 , dedemeidreididpb21 , memeididretridpb21 , idmemeidredeidpb21 , iddeididredeidpb21 , deiddeidretridpb21 , idmedeidretridpb21 , ididmeidreididpb21 , dedeididretridpb21 , dededeidredeidpb21 , mememeidreididpb21 , idmedeidreididpb21 , idmedeidredeidpb21 , mededeidreididpb21 , mededeidretridpb21 , memedeidreididpb21 , meidididretridpb21 , demedeidredeidpb21 , iddedeidretridpb21 , iddeididretridpb21 , dedemeidretridpb21 , ididididretridpb21 , dememeidreididpb21 , mememeidredeidpb21 , meiddeidreididpb21 , mededeidredeidpb21 , meiddeidredeidpb21 , meidmeidretridpb21 , ididdeidretridpb21 , ididdeidredeidpb21 , deidididredeidpb21 , iddemeidretridpb21 , idmeididretridpb21 , meidmeidredeidpb21 , deiddeidredeidpb21 , deidmeidretridpb21 , dedemeidredeidpb21 , deidididreididpb21 , deidmeidredeidpb21 , demedeidretridpb21 , ididmeidredeidpb21 , ididididreididpb21 , dededeidreididpb21 , medemeidreididpb21 , deidmeidreididpb21 , idmeididredeidpb21 , memedeidretridpb21 , iddedeidreididpb21 , iddemeidreididpb21 , mememeidretridpb21 , dememeidredeidpb21 , medemeidretridpb21 , demeididretridpb21
+ state memeididreididpb21 : 
+         to meidididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+         to idmeididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to mememeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to memeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to meidididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to idmeididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to memeididredeidpb21 :  when genergy1==0,die;
+         to memeididreididpc10 :  when true,addsensor4;
+         to memedeidreididpb21 :  when senergy3==0,dies;
+ state memeididredeidpb21 : 
+         to memedeidredeidpb21 :  when senergy3==0,dies;
+         to memeididreididpb21 :  when true,charge with genergy1=100;
+         to memeididredeidpc10 :  when true,addsensor4;
+         to mememeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state idmeididreididpb21 : 
+         to idmedeidreididpb21 :  when senergy3==0,dies;
+         to memeididreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmeididredeidpb21 :  when genergy1==0,die;
+         to idmeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+         to idmeididreididpc10 :  when true,addsensor4;
+         to idmemeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to demeididreididpb21 :  when senergy1==0,dies;
+ state dedeididreididpb21 : 
+         to dedemeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to dedeididreididpc10 :  when true,addsensor4;
+         to iddeididreididpb21 :  when true,charges with senergy1=100;
+         to dededeidreididpb21 :  when senergy3==0,dies;
+         to dedeididredeidpb21 :  when genergy1==0,die;
+         to dedeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to deidididreididpb21 :  when true,charges with senergy2=100;
+ state demeididreididpb21 : 
+         to deidididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to demeididredeidpb21 :  when genergy1==0,die;
+         to demeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to demedeidreididpb21 :  when senergy3==0,dies;
+         to demeididreididpc10 :  when true,addsensor4;
+         to dememeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to idmeididreididpb21 :  when true,charges with senergy1=100;
+         to deidididreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+ state meiddeidretridpb21 : 
+         to meiddeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to memedeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to meiddeidretridpc10 :  when true,addsensor4;
+         to meidididretridpb21 :  when true,charges with senergy3=100;
+         to mededeidretridpb21 :  when senergy2==0,dies;
+         to meiddeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state idmemeidreididpb21 : 
+         to idmemeidredeidpb21 :  when genergy1==0,die;
+         to ididmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+         to dememeidreididpb21 :  when senergy1==0,dies;
+         to idmeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to mememeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmemeidreididpc10 :  when true,addsensor4;
+         to ididmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to idmeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to idmemeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+ state ididididredeidpb21 : 
+         to meidididredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddeididredeidpb21 :  when senergy2==0,dies;
+         to ididmeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to deidididredeidpb21 :  when senergy1==0,dies;
+         to ididididreididpb21 :  when true,charge with genergy1=100;
+         to ididdeidredeidpb21 :  when senergy3==0,dies;
+         to ididididredeidpc10 :  when true,addsensor4;
+         to idmeididredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+ state medeididretridpb21 : 
+         to mededeidretridpb21 :  when senergy3==0,dies;
+         to medeididretridpc10 :  when true,addsensor4;
+         to meidididretridpb21 :  when true,charges with senergy2=100;
+         to medeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to medemeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to medeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state demedeidreididpb21 : 
+         to deiddeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+         to demedeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to idmedeidreididpb21 :  when true,charges with senergy1=100;
+         to deiddeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to demeididreididpb21 :  when true,charges with senergy3=100;
+         to demedeidredeidpb21 :  when genergy1==0,die;
+         to demedeidreididpc10 :  when true,addsensor4;
+ state dededeidretridpb21 : 
+         to iddedeidretridpb21 :  when true,charges with senergy1=100;
+         to dededeidretridpc10 :  when true,addsensor4;
+         to dededeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to deiddeidretridpb21 :  when true,charges with senergy2=100;
+         to dedeididretridpb21 :  when true,charges with senergy3=100;
+         to dededeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state deidididretridpb21 : 
+         to demeididretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deiddeidretridpb21 :  when senergy3==0,dies;
+         to deidididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to deidmeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to dedeididretridpb21 :  when senergy2==0,dies;
+         to deidididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to ididididretridpb21 :  when true,charges with senergy1=100;
+         to deidididretridpc10 :  when true,addsensor4;
+ state iddeididreididpb21 : 
+         to iddedeidreididpb21 :  when senergy3==0,dies;
+         to medeididreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddeididredeidpb21 :  when genergy1==0,die;
+         to dedeididreididpb21 :  when senergy1==0,dies;
+         to iddemeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to iddeididreididpc10 :  when true,addsensor4;
+         to ididididreididpb21 :  when true,charges with senergy2=100;
+         to iddeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+ state idmemeidretridpb21 : 
+         to mememeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmemeidretridpc10 :  when true,addsensor4;
+         to idmemeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to idmemeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to dememeidretridpb21 :  when senergy1==0,dies;
+ state meidididreididpb21 : 
+         to memeididreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to medeididreididpb21 :  when senergy2==0,dies;
+         to meidmeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to meidididreididpc10 :  when true,addsensor4;
+         to meidididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to meidididredeidpb21 :  when genergy1==0,die;
+         to meiddeidreididpb21 :  when senergy3==0,dies;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+ state ididmeidretridpb21 : 
+         to ididmeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to iddemeidretridpb21 :  when senergy2==0,dies;
+         to ididmeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to ididmeidretridpc10 :  when true,addsensor4;
+         to idmemeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to meidmeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to deidmeidretridpb21 :  when senergy1==0,dies;
+ state ididdeidreididpb21 : 
+         to ididdeidredeidpb21 :  when genergy1==0,die;
+         to ididdeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to deiddeidreididpb21 :  when senergy1==0,dies;
+         to iddedeidreididpb21 :  when senergy2==0,dies;
+         to ididididreididpb21 :  when true,charges with senergy3=100;
+         to meiddeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmedeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to ididdeidreididpc10 :  when true,addsensor4;
+ state dedeididredeidpb21 : 
+         to dedeididreididpb21 :  when true,charge with genergy1=100;
+         to iddeididredeidpb21 :  when true,charges with senergy1=100;
+         to dedeididredeidpc10 :  when true,addsensor4;
+         to dedemeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to dededeidredeidpb21 :  when senergy3==0,dies;
+         to deidididredeidpb21 :  when true,charges with senergy2=100;
+ state meidmeidreididpb21 : 
+         to meidididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to meidmeidreididpc10 :  when true,addsensor4;
+         to meidididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to meidmeidredeidpb21 :  when genergy1==0,die;
+         to meidmeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididmeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to mememeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to medemeidreididpb21 :  when senergy2==0,dies;
+         to ididmeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+ state medeididredeidpb21 : 
+         to mededeidredeidpb21 :  when senergy3==0,dies;
+         to medemeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to medeididredeidpc10 :  when true,addsensor4;
+         to meidididredeidpb21 :  when true,charges with senergy2=100;
+         to medeididreididpb21 :  when true,charge with genergy1=100;
+ state memedeidredeidpb21 : 
+         to memedeidredeidpc10 :  when true,addsensor4;
+         to memedeidreididpb21 :  when true,charge with genergy1=100;
+         to memeididredeidpb21 :  when true,charges with senergy3=100;
+ state iddedeidredeidpb21 : 
+         to mededeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to dededeidredeidpb21 :  when senergy1==0,dies;
+         to ididdeidredeidpb21 :  when true,charges with senergy2=100;
+         to iddedeidredeidpc10 :  when true,addsensor4;
+         to iddeididredeidpb21 :  when true,charges with senergy3=100;
+         to iddedeidreididpb21 :  when true,charge with genergy1=100;
+ state demeididredeidpb21 : 
+         to idmeididredeidpb21 :  when true,charges with senergy1=100;
+         to demedeidredeidpb21 :  when senergy3==0,dies;
+         to demeididredeidpc10 :  when true,addsensor4;
+         to demeididreididpb21 :  when true,charge with genergy1=100;
+         to dememeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state medeididreididpb21 : 
+         to iddeididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to medeididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to iddeididreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to meidididreididpb21 :  when true,charges with senergy2=100;
+         to mededeidreididpb21 :  when senergy3==0,dies;
+         to medeididreididpc10 :  when true,addsensor4;
+         to medeididredeidpb21 :  when genergy1==0,die;
+         to medemeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state dememeidretridpb21 : 
+         to dememeidretridpc10 :  when true,addsensor4;
+         to idmemeidretridpb21 :  when true,charges with senergy1=100;
+         to dememeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to dememeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+ state medemeidredeidpb21 : 
+         to medemeidreididpb21 :  when true,charge with genergy1=100;
+         to meidmeidredeidpb21 :  when true,charges with senergy2=100;
+         to medemeidredeidpc10 :  when true,addsensor4;
+ state deiddeidreididpb21 : 
+         to deiddeidredeidpb21 :  when genergy1==0,die;
+         to deiddeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to dededeidreididpb21 :  when senergy2==0,dies;
+         to ididdeidreididpb21 :  when true,charges with senergy1=100;
+         to deiddeidreididpc10 :  when true,addsensor4;
+         to demedeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidididreididpb21 :  when true,charges with senergy3=100;
+ state meidididredeidpb21 : 
+         to meidididreididpb21 :  when true,charge with genergy1=100;
+         to meiddeidredeidpb21 :  when senergy3==0,dies;
+         to meidididredeidpc10 :  when true,addsensor4;
+         to memeididredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to meidmeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to medeididredeidpb21 :  when senergy2==0,dies;
+ state iddemeidredeidpb21 : 
+         to iddemeidredeidpc10 :  when true,addsensor4;
+         to iddemeidreididpb21 :  when true,charge with genergy1=100;
+         to dedemeidredeidpb21 :  when senergy1==0,dies;
+         to ididmeidredeidpb21 :  when true,charges with senergy2=100;
+         to medemeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+ state dedemeidreididpb21 : 
+         to iddemeidreididpb21 :  when true,charges with senergy1=100;
+         to dedeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to dedemeidreididpc10 :  when true,addsensor4;
+         to dedeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to deidmeidreididpb21 :  when true,charges with senergy2=100;
+         to dedemeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to dedemeidredeidpb21 :  when genergy1==0,die;
+ state memeididretridpb21 : 
+         to memeididretridpc10 :  when true,addsensor4;
+         to memedeidretridpb21 :  when senergy3==0,dies;
+         to mememeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to memeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to memeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+ state idmemeidredeidpb21 : 
+         to dememeidredeidpb21 :  when senergy1==0,dies;
+         to idmemeidreididpb21 :  when true,charge with genergy1=100;
+         to mememeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmemeidredeidpc10 :  when true,addsensor4;
+ state iddeididredeidpb21 : 
+         to iddeididreididpb21 :  when true,charge with genergy1=100;
+         to iddeididredeidpc10 :  when true,addsensor4;
+         to ididididredeidpb21 :  when true,charges with senergy2=100;
+         to medeididredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to dedeididredeidpb21 :  when senergy1==0,dies;
+         to iddedeidredeidpb21 :  when senergy3==0,dies;
+         to iddemeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state deiddeidretridpb21 : 
+         to dededeidretridpb21 :  when senergy2==0,dies;
+         to deiddeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to ididdeidretridpb21 :  when true,charges with senergy1=100;
+         to deiddeidretridpc10 :  when true,addsensor4;
+         to demedeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidididretridpb21 :  when true,charges with senergy3=100;
+         to deiddeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state idmedeidretridpb21 : 
+         to memedeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmedeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to demedeidretridpb21 :  when senergy1==0,dies;
+         to idmedeidretridpc10 :  when true,addsensor4;
+         to idmedeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to idmeididretridpb21 :  when true,charges with senergy3=100;
+ state ididmeidreididpb21 : 
+         to ididmeidredeidpb21 :  when genergy1==0,die;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to meidmeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to deidmeidreididpb21 :  when senergy1==0,dies;
+         to idmemeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to iddemeidreididpb21 :  when senergy2==0,dies;
+         to ididididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to ididmeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididmeidreididpc10 :  when true,addsensor4;
+ state dedeididretridpb21 : 
+         to dedeididretridpc10 :  when true,addsensor4;
+         to dedeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to deidididretridpb21 :  when true,charges with senergy2=100;
+         to dedemeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to dededeidretridpb21 :  when senergy3==0,dies;
+         to iddeididretridpb21 :  when true,charges with senergy1=100;
+         to dedeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state dededeidredeidpb21 : 
+         to dededeidredeidpc10 :  when true,addsensor4;
+         to dedeididredeidpb21 :  when true,charges with senergy3=100;
+         to dededeidreididpb21 :  when true,charge with genergy1=100;
+         to iddedeidredeidpb21 :  when true,charges with senergy1=100;
+         to deiddeidredeidpb21 :  when true,charges with senergy2=100;
+ state mememeidreididpb21 : 
+         to memeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to mememeidreididpc10 :  when true,addsensor4;
+         to idmemeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to mememeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to meidmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to memeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to idmemeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to mememeidredeidpb21 :  when genergy1==0,die;
+         to meidmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+ state idmedeidreididpb21 : 
+         to idmedeidreididpc10 :  when true,addsensor4;
+         to idmedeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to idmedeidredeidpb21 :  when genergy1==0,die;
+         to ididdeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to ididdeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+         to demedeidreididpb21 :  when senergy1==0,dies;
+         to idmeididreididpb21 :  when true,charges with senergy3=100;
+         to memedeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+ state idmedeidredeidpb21 : 
+         to idmedeidredeidpc10 :  when true,addsensor4;
+         to idmedeidreididpb21 :  when true,charge with genergy1=100;
+         to memedeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to demedeidredeidpb21 :  when senergy1==0,dies;
+         to idmeididredeidpb21 :  when true,charges with senergy3=100;
+ state mededeidreididpb21 : 
+         to medeididreididpb21 :  when true,charges with senergy3=100;
+         to iddedeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to mededeidreididpc10 :  when true,addsensor4;
+         to mededeidredeidpb21 :  when genergy1==0,die;
+         to iddedeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to mededeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to meiddeidreididpb21 :  when true,charges with senergy2=100;
+ state mededeidretridpb21 : 
+         to mededeidretridpc10 :  when true,addsensor4;
+         to mededeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to medeididretridpb21 :  when true,charges with senergy3=100;
+         to mededeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to meiddeidretridpb21 :  when true,charges with senergy2=100;
+ state memedeidreididpb21 : 
+         to idmedeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to memedeidredeidpb21 :  when genergy1==0,die;
+         to memedeidreididpc10 :  when true,addsensor4;
+         to memeididreididpb21 :  when true,charges with senergy3=100;
+         to idmedeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to meiddeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to memedeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to meiddeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+ state meidididretridpb21 : 
+         to meiddeidretridpb21 :  when senergy3==0,dies;
+         to medeididretridpb21 :  when senergy2==0,dies;
+         to meidididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to meidididretridpc10 :  when true,addsensor4;
+         to meidmeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to meidididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to memeididretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+ state demedeidredeidpb21 : 
+         to demedeidredeidpc10 :  when true,addsensor4;
+         to demeididredeidpb21 :  when true,charges with senergy3=100;
+         to demedeidreididpb21 :  when true,charge with genergy1=100;
+         to idmedeidredeidpb21 :  when true,charges with senergy1=100;
+ state iddedeidretridpb21 : 
+         to iddedeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to ididdeidretridpb21 :  when true,charges with senergy2=100;
+         to dededeidretridpb21 :  when senergy1==0,dies;
+         to iddeididretridpb21 :  when true,charges with senergy3=100;
+         to mededeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddedeidretridpc10 :  when true,addsensor4;
+         to iddedeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+ state iddeididretridpb21 : 
+         to medeididretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to dedeididretridpb21 :  when senergy1==0,dies;
+         to iddemeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to iddedeidretridpb21 :  when senergy3==0,dies;
+         to iddeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to ididididretridpb21 :  when true,charges with senergy2=100;
+         to iddeididretridpc10 :  when true,addsensor4;
+ state dedemeidretridpb21 : 
+         to iddemeidretridpb21 :  when true,charges with senergy1=100;
+         to dedemeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to deidmeidretridpb21 :  when true,charges with senergy2=100;
+         to dedemeidretridpc10 :  when true,addsensor4;
+         to dedemeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state ididididretridpb21 : 
+         to ididmeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to iddeididretridpb21 :  when senergy2==0,dies;
+         to idmeididretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidididretridpb21 :  when senergy1==0,dies;
+         to ididididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to meidididretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to ididididretridpc10 :  when true,addsensor4;
+         to ididididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to ididdeidretridpb21 :  when senergy3==0,dies;
+ state dememeidreididpb21 : 
+         to demeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to demeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to dememeidreididpc10 :  when true,addsensor4;
+         to dememeidredeidpb21 :  when genergy1==0,die;
+         to idmemeidreididpb21 :  when true,charges with senergy1=100;
+         to dememeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to deidmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,gnum1=gnum1+1;
+         to deidmeidreididpb21 :  when true and gnum1<gbs1,send with senergy2=senergy2-1,critical=1,gnum1=gnum1+1;
+ state mememeidredeidpb21 : 
+         to mememeidredeidpc10 :  when true,addsensor4;
+         to mememeidreididpb21 :  when true,charge with genergy1=100;
+ state meiddeidreididpb21 : 
+         to meiddeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididdeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to meiddeidredeidpb21 :  when genergy1==0,die;
+         to mededeidreididpb21 :  when senergy2==0,dies;
+         to memedeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to ididdeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to meidididreididpb21 :  when true,charges with senergy3=100;
+         to meiddeidreididpc10 :  when true,addsensor4;
+ state mededeidredeidpb21 : 
+         to mededeidredeidpc10 :  when true,addsensor4;
+         to medeididredeidpb21 :  when true,charges with senergy3=100;
+         to mededeidreididpb21 :  when true,charge with genergy1=100;
+         to meiddeidredeidpb21 :  when true,charges with senergy2=100;
+ state meiddeidredeidpb21 : 
+         to memedeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to mededeidredeidpb21 :  when senergy2==0,dies;
+         to meiddeidreididpb21 :  when true,charge with genergy1=100;
+         to meidididredeidpb21 :  when true,charges with senergy3=100;
+         to meiddeidredeidpc10 :  when true,addsensor4;
+ state meidmeidretridpb21 : 
+         to meidmeidretridpc10 :  when true,addsensor4;
+         to meidmeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to medemeidretridpb21 :  when senergy2==0,dies;
+         to meidmeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to mememeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+ state ididdeidretridpb21 : 
+         to ididdeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to deiddeidretridpb21 :  when senergy1==0,dies;
+         to ididididretridpb21 :  when true,charges with senergy3=100;
+         to meiddeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to ididdeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to ididdeidretridpc10 :  when true,addsensor4;
+         to iddedeidretridpb21 :  when senergy2==0,dies;
+         to idmedeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+ state ididdeidredeidpb21 : 
+         to ididididredeidpb21 :  when true,charges with senergy3=100;
+         to ididdeidreididpb21 :  when true,charge with genergy1=100;
+         to ididdeidredeidpc10 :  when true,addsensor4;
+         to meiddeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmedeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to iddedeidredeidpb21 :  when senergy2==0,dies;
+         to deiddeidredeidpb21 :  when senergy1==0,dies;
+ state deidididredeidpb21 : 
+         to deiddeidredeidpb21 :  when senergy3==0,dies;
+         to dedeididredeidpb21 :  when senergy2==0,dies;
+         to deidididredeidpc10 :  when true,addsensor4;
+         to ididididredeidpb21 :  when true,charges with senergy1=100;
+         to demeididredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidididreididpb21 :  when true,charge with genergy1=100;
+         to deidmeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state iddemeidretridpb21 : 
+         to medemeidretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to dedemeidretridpb21 :  when senergy1==0,dies;
+         to iddemeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to iddemeidretridpc10 :  when true,addsensor4;
+         to ididmeidretridpb21 :  when true,charges with senergy2=100;
+         to iddemeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state idmeididretridpb21 : 
+         to idmemeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to idmedeidretridpb21 :  when senergy3==0,dies;
+         to idmeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to demeididretridpb21 :  when senergy1==0,dies;
+         to memeididretridpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmeididretridpc10 :  when true,addsensor4;
+         to idmeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state meidmeidredeidpb21 : 
+         to meidmeidreididpb21 :  when true,charge with genergy1=100;
+         to meidmeidredeidpc10 :  when true,addsensor4;
+         to medemeidredeidpb21 :  when senergy2==0,dies;
+         to mememeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+ state deiddeidredeidpb21 : 
+         to deidididredeidpb21 :  when true,charges with senergy3=100;
+         to deiddeidreididpb21 :  when true,charge with genergy1=100;
+         to ididdeidredeidpb21 :  when true,charges with senergy1=100;
+         to demedeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to dededeidredeidpb21 :  when senergy2==0,dies;
+         to deiddeidredeidpc10 :  when true,addsensor4;
+ state deidmeidretridpb21 : 
+         to dememeidretridpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidmeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to deidmeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to dedemeidretridpb21 :  when senergy2==0,dies;
+         to deidmeidretridpc10 :  when true,addsensor4;
+         to ididmeidretridpb21 :  when true,charges with senergy1=100;
+ state dedemeidredeidpb21 : 
+         to iddemeidredeidpb21 :  when true,charges with senergy1=100;
+         to deidmeidredeidpb21 :  when true,charges with senergy2=100;
+         to dedemeidredeidpc10 :  when true,addsensor4;
+         to dedemeidreididpb21 :  when true,charge with genergy1=100;
+ state deidididreididpb21 : 
+         to deidididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididididreididpb21 :  when true,charges with senergy1=100;
+         to deidididredeidpb21 :  when genergy1==0,die;
+         to dedeididreididpb21 :  when senergy2==0,dies;
+         to deiddeidreididpb21 :  when senergy3==0,dies;
+         to deidididreididpc10 :  when true,addsensor4;
+         to demeididreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidmeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state deidmeidredeidpb21 : 
+         to dememeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidmeidreididpb21 :  when true,charge with genergy1=100;
+         to ididmeidredeidpb21 :  when true,charges with senergy1=100;
+         to dedemeidredeidpb21 :  when senergy2==0,dies;
+         to deidmeidredeidpc10 :  when true,addsensor4;
+ state demedeidretridpb21 : 
+         to demedeidretridpc10 :  when true,addsensor4;
+         to idmedeidretridpb21 :  when true,charges with senergy1=100;
+         to demedeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to demeididretridpb21 :  when true,charges with senergy3=100;
+         to demedeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+ state ididmeidredeidpb21 : 
+         to meidmeidredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddemeidredeidpb21 :  when senergy2==0,dies;
+         to deidmeidredeidpb21 :  when senergy1==0,dies;
+         to ididmeidreididpb21 :  when true,charge with genergy1=100;
+         to idmemeidredeidpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to ididmeidredeidpc10 :  when true,addsensor4;
+ state ididididreididpb21 : 
+         to ididididreididpc10 :  when true,addsensor4;
+         to meidididreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to idmeididreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to iddeididreididpb21 :  when senergy2==0,dies;
+         to ididididretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididmeidreididpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to deidididreididpb21 :  when senergy1==0,dies;
+         to ididididredeidpb21 :  when genergy1==0,die;
+         to ididdeidreididpb21 :  when senergy3==0,dies;
+ state dededeidreididpb21 : 
+         to deiddeidreididpb21 :  when true,charges with senergy2=100;
+         to dededeidreididpc10 :  when true,addsensor4;
+         to dededeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to dedeididreididpb21 :  when true,charges with senergy3=100;
+         to iddedeidreididpb21 :  when true,charges with senergy1=100;
+         to dededeidredeidpb21 :  when genergy1==0,die;
+ state medemeidreididpb21 : 
+         to iddemeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,gnum1=gnum1+1;
+         to medeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to medemeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to medemeidredeidpb21 :  when genergy1==0,die;
+         to iddemeidreididpb21 :  when true and gnum1<gbs1,send with senergy1=senergy1-1,critical=1,gnum1=gnum1+1;
+         to medeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to meidmeidreididpb21 :  when true,charges with senergy2=100;
+         to medemeidreididpc10 :  when true,addsensor4;
+ state deidmeidreididpb21 : 
+         to dedemeidreididpb21 :  when senergy2==0,dies;
+         to deidididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to deidmeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to ididmeidreididpb21 :  when true,charges with senergy1=100;
+         to dememeidreididpb21 :  when 2<=senergy2,measure with senergy2=senergy2-1,snnum2=snnum2+1;
+         to deidididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to deidmeidredeidpb21 :  when genergy1==0,die;
+         to deidmeidreididpc10 :  when true,addsensor4;
+ state idmeididredeidpb21 : 
+         to idmedeidredeidpb21 :  when senergy3==0,dies;
+         to idmeididreididpb21 :  when true,charge with genergy1=100;
+         to demeididredeidpb21 :  when senergy1==0,dies;
+         to idmeididredeidpc10 :  when true,addsensor4;
+         to idmemeidredeidpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+         to memeididredeidpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+ state memedeidretridpb21 : 
+         to memedeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to memedeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to memedeidretridpc10 :  when true,addsensor4;
+         to memeididretridpb21 :  when true,charges with senergy3=100;
+ state iddedeidreididpb21 : 
+         to iddedeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to dededeidreididpb21 :  when senergy1==0,dies;
+         to iddedeidredeidpb21 :  when genergy1==0,die;
+         to mededeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddedeidreididpc10 :  when true,addsensor4;
+         to iddeididreididpb21 :  when true,charges with senergy3=100;
+         to ididdeidreididpb21 :  when true,charges with senergy2=100;
+ state iddemeidreididpb21 : 
+         to iddemeidredeidpb21 :  when genergy1==0,die;
+         to iddeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,critical=1,gnum1=gnum1+1;
+         to dedemeidreididpb21 :  when senergy1==0,dies;
+         to iddemeidretridpb21 :  when 0<gnum1 and 2<=genergy1,process with genergy1=genergy1-1;
+         to iddeididreididpb21 :  when true and gnum1<gbs1,send with senergy3=senergy3-1,gnum1=gnum1+1;
+         to medemeidreididpb21 :  when 2<=senergy1,measure with senergy1=senergy1-1,snnum1=snnum1+1;
+         to iddemeidreididpc10 :  when true,addsensor4;
+         to ididmeidreididpb21 :  when true,charges with senergy2=100;
+ state mememeidretridpb21 : 
+         to mememeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to mememeidretridpc10 :  when true,addsensor4;
+         to mememeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+ state dememeidredeidpb21 : 
+         to dememeidredeidpc10 :  when true,addsensor4;
+         to dememeidreididpb21 :  when true,charge with genergy1=100;
+         to idmemeidredeidpb21 :  when true,charges with senergy1=100;
+ state medemeidretridpb21 : 
+         to meidmeidretridpb21 :  when true,charges with senergy2=100;
+         to medemeidreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to medemeidretridpb21 :  when true,reconfig;
+         to medemeidreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to medemeidretridpc10 :  when true,addsensor4;
+ state demeididretridpb21 : 
+         to idmeididretridpb21 :  when true,charges with senergy1=100;
+         to demeididreididpb21 :  when 0<gnum1 and critical==1,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1,critical=0;
+         to demedeidretridpb21 :  when senergy3==0,dies;
+         to demeididretridpc10 :  when true,addsensor4;
+         to demeididreididpb21 :  when 0<gnum1 and true,forward with genergy1=genergy1-1,gnum1=gnum1-1,srnum1=srnum1+1;
+         to dememeidretridpb21 :  when 2<=senergy3,measure with senergy3=senergy3-1,snnum3=snnum3+1;
+ state memeididreididpc10 : 
+         to memeididreididpc10 :  when true , reconfig; 
+ state memeididredeidpc10 : 
+         to memeididredeidpc10 :  when true , reconfig; 
+ state idmeididreididpc10 : 
+         to idmeididreididpc10 :  when true , reconfig; 
+ state dedeididreididpc10 : 
+         to dedeididreididpc10 :  when true , reconfig; 
+ state demeididreididpc10 : 
+         to demeididreididpc10 :  when true , reconfig; 
+ state meiddeidretridpc10 : 
+         to meiddeidretridpc10 :  when true , reconfig; 
+ state idmemeidreididpc10 : 
+         to idmemeidreididpc10 :  when true , reconfig; 
+ state ididididredeidpc10 : 
+         to ididididredeidpc10 :  when true , reconfig; 
+ state medeididretridpc10 : 
+         to medeididretridpc10 :  when true , reconfig; 
+ state demedeidreididpc10 : 
+         to demedeidreididpc10 :  when true , reconfig; 
+ state dededeidretridpc10 : 
+         to dededeidretridpc10 :  when true , reconfig; 
+ state deidididretridpc10 : 
+         to deidididretridpc10 :  when true , reconfig; 
+ state iddeididreididpc10 : 
+         to iddeididreididpc10 :  when true , reconfig; 
+ state idmemeidretridpc10 : 
+         to idmemeidretridpc10 :  when true , reconfig; 
+ state meidididreididpc10 : 
+         to meidididreididpc10 :  when true , reconfig; 
+ state ididmeidretridpc10 : 
+         to ididmeidretridpc10 :  when true , reconfig; 
+ state ididdeidreididpc10 : 
+         to ididdeidreididpc10 :  when true , reconfig; 
+ state dedeididredeidpc10 : 
+         to dedeididredeidpc10 :  when true , reconfig; 
+ state meidmeidreididpc10 : 
+         to meidmeidreididpc10 :  when true , reconfig; 
+ state medeididredeidpc10 : 
+         to medeididredeidpc10 :  when true , reconfig; 
+ state memedeidredeidpc10 : 
+         to memedeidredeidpc10 :  when true , reconfig; 
+ state iddedeidredeidpc10 : 
+         to iddedeidredeidpc10 :  when true , reconfig; 
+ state demeididredeidpc10 : 
+         to demeididredeidpc10 :  when true , reconfig; 
+ state medeididreididpc10 : 
+         to medeididreididpc10 :  when true , reconfig; 
+ state dememeidretridpc10 : 
+         to dememeidretridpc10 :  when true , reconfig; 
+ state medemeidredeidpc10 : 
+         to medemeidredeidpc10 :  when true , reconfig; 
+ state deiddeidreididpc10 : 
+         to deiddeidreididpc10 :  when true , reconfig; 
+ state meidididredeidpc10 : 
+         to meidididredeidpc10 :  when true , reconfig; 
+ state iddemeidredeidpc10 : 
+         to iddemeidredeidpc10 :  when true , reconfig; 
+ state dedemeidreididpc10 : 
+         to dedemeidreididpc10 :  when true , reconfig; 
+ state memeididretridpc10 : 
+         to memeididretridpc10 :  when true , reconfig; 
+ state idmemeidredeidpc10 : 
+         to idmemeidredeidpc10 :  when true , reconfig; 
+ state iddeididredeidpc10 : 
+         to iddeididredeidpc10 :  when true , reconfig; 
+ state deiddeidretridpc10 : 
+         to deiddeidretridpc10 :  when true , reconfig; 
+ state idmedeidretridpc10 : 
+         to idmedeidretridpc10 :  when true , reconfig; 
+ state ididmeidreididpc10 : 
+         to ididmeidreididpc10 :  when true , reconfig; 
+ state dedeididretridpc10 : 
+         to dedeididretridpc10 :  when true , reconfig; 
+ state dededeidredeidpc10 : 
+         to dededeidredeidpc10 :  when true , reconfig; 
+ state mememeidreididpc10 : 
+         to mememeidreididpc10 :  when true , reconfig; 
+ state idmedeidreididpc10 : 
+         to idmedeidreididpc10 :  when true , reconfig; 
+ state idmedeidredeidpc10 : 
+         to idmedeidredeidpc10 :  when true , reconfig; 
+ state mededeidreididpc10 : 
+         to mededeidreididpc10 :  when true , reconfig; 
+ state mededeidretridpc10 : 
+         to mededeidretridpc10 :  when true , reconfig; 
+ state memedeidreididpc10 : 
+         to memedeidreididpc10 :  when true , reconfig; 
+ state meidididretridpc10 : 
+         to meidididretridpc10 :  when true , reconfig; 
+ state demedeidredeidpc10 : 
+         to demedeidredeidpc10 :  when true , reconfig; 
+ state iddedeidretridpc10 : 
+         to iddedeidretridpc10 :  when true , reconfig; 
+ state iddeididretridpc10 : 
+         to iddeididretridpc10 :  when true , reconfig; 
+ state dedemeidretridpc10 : 
+         to dedemeidretridpc10 :  when true , reconfig; 
+ state ididididretridpc10 : 
+         to ididididretridpc10 :  when true , reconfig; 
+ state dememeidreididpc10 : 
+         to dememeidreididpc10 :  when true , reconfig; 
+ state mememeidredeidpc10 : 
+         to mememeidredeidpc10 :  when true , reconfig; 
+ state meiddeidreididpc10 : 
+         to meiddeidreididpc10 :  when true , reconfig; 
+ state mededeidredeidpc10 : 
+         to mededeidredeidpc10 :  when true , reconfig; 
+ state meiddeidredeidpc10 : 
+         to meiddeidredeidpc10 :  when true , reconfig; 
+ state meidmeidretridpc10 : 
+         to meidmeidretridpc10 :  when true , reconfig; 
+ state ididdeidretridpc10 : 
+         to ididdeidretridpc10 :  when true , reconfig; 
+ state ididdeidredeidpc10 : 
+         to ididdeidredeidpc10 :  when true , reconfig; 
+ state deidididredeidpc10 : 
+         to deidididredeidpc10 :  when true , reconfig; 
+ state iddemeidretridpc10 : 
+         to iddemeidretridpc10 :  when true , reconfig; 
+ state idmeididretridpc10 : 
+         to idmeididretridpc10 :  when true , reconfig; 
+ state meidmeidredeidpc10 : 
+         to meidmeidredeidpc10 :  when true , reconfig; 
+ state deiddeidredeidpc10 : 
+         to deiddeidredeidpc10 :  when true , reconfig; 
+ state deidmeidretridpc10 : 
+         to deidmeidretridpc10 :  when true , reconfig; 
+ state dedemeidredeidpc10 : 
+         to dedemeidredeidpc10 :  when true , reconfig; 
+ state deidididreididpc10 : 
+         to deidididreididpc10 :  when true , reconfig; 
+ state deidmeidredeidpc10 : 
+         to deidmeidredeidpc10 :  when true , reconfig; 
+ state demedeidretridpc10 : 
+         to demedeidretridpc10 :  when true , reconfig; 
+ state ididmeidredeidpc10 : 
+         to ididmeidredeidpc10 :  when true , reconfig; 
+ state ididididreididpc10 : 
+         to ididididreididpc10 :  when true , reconfig; 
+ state dededeidreididpc10 : 
+         to dededeidreididpc10 :  when true , reconfig; 
+ state medemeidreididpc10 : 
+         to medemeidreididpc10 :  when true , reconfig; 
+ state deidmeidreididpc10 : 
+         to deidmeidreididpc10 :  when true , reconfig; 
+ state idmeididredeidpc10 : 
+         to idmeididredeidpc10 :  when true , reconfig; 
+ state memedeidretridpc10 : 
+         to memedeidretridpc10 :  when true , reconfig; 
+ state iddedeidreididpc10 : 
+         to iddedeidreididpc10 :  when true , reconfig; 
+ state iddemeidreididpc10 : 
+         to iddemeidreididpc10 :  when true , reconfig; 
+ state mememeidretridpc10 : 
+         to mememeidretridpc10 :  when true , reconfig; 
+ state dememeidredeidpc10 : 
+         to dememeidredeidpc10 :  when true , reconfig; 
+ state medemeidretridpc10 : 
+         to medemeidretridpc10 :  when true , reconfig; 
+ state demeididretridpc10 : 
+         to demeididretridpc10 :  when true , reconfig; 
+
+
+bad_states : 
+state memeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state memeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meiddeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmemeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demedeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dededeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmemeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididmeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididdeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidmeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state memedeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddedeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medeididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dememeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medemeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deiddeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddemeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedemeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state memeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmemeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deiddeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmedeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididmeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dededeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mememeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmedeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmedeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mededeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mededeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state memedeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demedeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddedeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedemeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dememeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mememeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meiddeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mededeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meiddeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidmeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididdeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididdeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddemeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state meidmeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deiddeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidmeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dedemeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidmeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demedeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididmeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state ididididreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dededeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medemeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state deidmeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state idmeididredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state memedeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddedeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state iddemeidreididpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state mememeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state dememeidredeidpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state medemeidretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+state demeididretridpb21 : gnum1+gnum2+srnum1<=snnum1+snnum2+snnum3
+
+ state meidididretridpc10 : true
+ state ididmeidredeidpc10 : true
+ state demedeidredeidpc10 : true
+ state deiddeidretridpc10 : true
+ state dememeidredeidpc10 : true
+ state idmemeidredeidpc10 : true
+ state iddemeidreididpc10 : true
+ state dedeididredeidpc10 : true
+ state memedeidredeidpc10 : true
+ state iddedeidreididpc10 : true
+ state deiddeidreididpc10 : true
+ state dededeidretridpc10 : true
+ state ididdeidredeidpc10 : true
+ state deidmeidredeidpc10 : true
+ state medeididreididpc10 : true
+ state iddedeidretridpc10 : true
+ state idmedeidretridpc10 : true
+ state idmeididredeidpc10 : true
+ state memeididreididpc10 : true
+ state demeididretridpc10 : true
+ state memeididretridpc10 : true
+ state ididmeidretridpc10 : true
+ state demedeidretridpc10 : true
+ state deiddeidredeidpc10 : true
+ state meidididreididpc10 : true
+ state idmemeidreididpc10 : true
+ state iddeididretridpc10 : true
+ state memedeidretridpc10 : true
+ state medemeidredeidpc10 : true
+ state mededeidredeidpc10 : true
+ state dedemeidreididpc10 : true
+ state iddeididredeidpc10 : true
+ state idmemeidretridpc10 : true
+ state dededeidreididpc10 : true
+ state memedeidreididpc10 : true
+ state mememeidredeidpc10 : -gnum1-gnum2+snnum1+snnum2+snnum3+snnum4                                 -srnum1>=0
+ state ididididredeidpc10 : true
+ state dedemeidretridpc10 : true
+ state dedeididretridpc10 : true
+ state meiddeidretridpc10 : true
+ state ididdeidretridpc10 : true
+ state mememeidreididpc10 : -gnum1-gnum2+snnum1+snnum2+snnum3+snnum4                                 -srnum1>=0
+ state memeididredeidpc10 : true
+ state deidmeidretridpc10 : true
+ state dememeidreididpc10 : true
+ state iddedeidredeidpc10 : true
+ state meidmeidredeidpc10 : true
+ state deidididretridpc10 : true
+ state medeididretridpc10 : true
+ state meidmeidretridpc10 : true
+ state idmeididreididpc10 : true
+ state dededeidredeidpc10 : true
+ state iddemeidretridpc10 : true
+ state ididididretridpc10 : true
+ state idmedeidreididpc10 : true
+ state ididmeidreididpc10 : true
+ state medemeidreididpc10 : true
+ state meiddeidredeidpc10 : true
+ state medemeidretridpc10 : true
+ state meidmeidreididpc10 : true
+ state iddeididreididpc10 : true
+ state ididididreididpc10 : true
+ state mededeidretridpc10 : true
+ state deidididreididpc10 : true
+ state deidididredeidpc10 : true
+ state meiddeidreididpc10 : true
+ state mememeidretridpc10 : -gnum1-gnum2+snnum1+snnum2+snnum3+snnum4                                 -srnum1>=0
+ state iddemeidredeidpc10 : true
+ state demeididredeidpc10 : true
+ state meidididredeidpc10 : true
+ state demeididreididpc10 : true
+ state idmedeidredeidpc10 : true
+ state medeididredeidpc10 : true
+ state dememeidretridpc10 : true
+ state deidmeidreididpc10 : true
+ state mededeidreididpc10 : true
+ state demedeidreididpc10 : true
+ state idmeididretridpc10 : true
+ state ididdeidreididpc10 : true
+ state dedeididreididpc10 : true
+ state dedemeidredeidpc10 : true
+ controller 1 mask:  

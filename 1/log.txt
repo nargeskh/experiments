@@ -1,0 +1,213 @@
+       *
+********************************
+[in loc dedeidredeidpa0: => top;
+ in loc dedeidredeidpb1: => top;
+ in loc dedeidreididpa0: => top;
+ in loc dedeidreididpb1: => top;
+ in loc dedeidretridpa0: => top;
+ in loc dedeidretridpb1: => top;
+ in loc deididredeidpa0: => top;
+ in loc deididredeidpb1: => top;
+ in loc deididreididpa0: => top;
+ in loc deididreididpb1: => top;
+ in loc deididretridpa0: => top;
+ in loc deididretridpb1: => top;
+ in loc demeidredeidpa0: => top;
+ in loc demeidredeidpb1: => top;
+ in loc demeidreididpa0: => top;
+ in loc demeidreididpb1: => top;
+ in loc demeidretridpa0: => top;
+ in loc demeidretridpb1: => top;
+ in loc iddeidredeidpa0: => top;
+ in loc iddeidredeidpb1: => top;
+ in loc iddeidreididpa0: => top;
+ in loc iddeidreididpb1: => top;
+ in loc iddeidretridpa0: => top;
+ in loc iddeidretridpb1: => top;
+ in loc idididredeidpa0: => top;
+ in loc idididredeidpb1: => top;
+ in loc idididreididpa0: => top;
+ in loc idididreididpb1: => top;
+ in loc idididretridpa0: => top;
+ in loc idididretridpb1: => top;
+ in loc idmeidredeidpa0: => top;
+ in loc idmeidredeidpb1: => top;
+ in loc idmeidreididpa0: => top;
+ in loc idmeidreididpb1: => top;
+ in loc idmeidretridpa0: => top;
+ in loc idmeidretridpb1: => top;
+ in loc medeidredeidpa0: => top;
+ in loc medeidredeidpb1: => top;
+ in loc medeidreididpa0: => top;
+ in loc medeidreididpb1: => top;
+ in loc medeidretridpa0: => top;
+ in loc medeidretridpb1: => top;
+ in loc meididredeidpa0: => top;
+ in loc meididredeidpb1: => top;
+ in loc meididreididpa0: => top;
+ in loc meididreididpb1: => top;
+ in loc meididretridpa0: => top;
+ in loc meididretridpb1: => top;
+ in loc memeidredeidpa0: => [|-gnum1+snnum1+snnum2-srnum1>=0|];
+ in loc memeidredeidpb1: => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+ in loc memeidreididpa0: => [|-gnum1+snnum1+snnum2-srnum1>=0|];
+ in loc memeidreididpb1: => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+ in loc memeidretridpa0: => [|-gnum1+snnum1+snnum2-srnum1>=0|];
+ in loc memeidretridpb1: => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|]]
+********************************
+* SMACS output (general case)  *
+********************************
+---------------------
+Controller 1 function
+---------------------
+[addgateway2=>[dedeidredeidpa0 => top;
+               dedeidreididpa0 => top;
+               dedeidretridpa0 => top;
+               deididredeidpa0 => top;
+               deididreididpa0 => top;
+               deididretridpa0 => top;
+               demeidredeidpa0 => top;
+               demeidreididpa0 => top;
+               demeidretridpa0 => top;
+               iddeidredeidpa0 => top;
+               iddeidreididpa0 => top;
+               iddeidretridpa0 => top;
+               idididredeidpa0 => top;
+               idididreididpa0 => top;
+               idididretridpa0 => top;
+               idmeidredeidpa0 => top;
+               idmeidreididpa0 => top;
+               idmeidretridpa0 => top;
+               medeidredeidpa0 => top;
+               medeidreididpa0 => top;
+               medeidretridpa0 => top;
+               meididredeidpa0 => top;
+               meididreididpa0 => top;
+               meididretridpa0 => top;
+               memeidredeidpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+               memeidreididpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+               memeidretridpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|]];
+ forward=>[dedeidretridpa0 => [|gnum1-1>=0|];
+           deididretridpa0 => [|gnum1-1>=0|];
+           demeidretridpa0 => [|gnum1-1>=0|];
+           iddeidretridpa0 => [|gnum1-1>=0|];
+           idididretridpa0 => [|gnum1-1>=0|];
+           idmeidretridpa0 => [|gnum1-1>=0|];
+           medeidretridpa0 => [|gnum1-1>=0|];
+           meididretridpa0 => [|gnum1-1>=0|];
+           memeidretridpa0 => [|-gnum1+snnum1+snnum2-srnum1>=0; gnum1-1>=0|]];
+ reconfig=>[dedeidredeidpb1 => top;
+            dedeidreididpb1 => top;
+            dedeidretridpb1 => top;
+            deididredeidpb1 => top;
+            deididreididpb1 => top;
+            deididretridpb1 => top;
+            demeidredeidpb1 => top;
+            demeidreididpb1 => top;
+            demeidretridpb1 => top;
+            iddeidredeidpb1 => top;
+            iddeidreididpb1 => top;
+            iddeidretridpb1 => top;
+            idididredeidpb1 => top;
+            idididreididpa0 => top;
+            idididreididpb1 => top;
+            idididretridpb1 => top;
+            idmeidredeidpb1 => top;
+            idmeidreididpb1 => top;
+            idmeidretridpb1 => top;
+            medeidredeidpb1 => top;
+            medeidreididpb1 => top;
+            medeidretridpb1 => top;
+            meididredeidpb1 => top;
+            meididreididpb1 => top;
+            meididretridpb1 => top;
+            memeidredeidpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+            memeidreididpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+            memeidretridpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|]];
+ send=>[demeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        medeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        meididreididpa0 => [|gbs1-gnum1-1>=0|];
+        memeidreididpa0 => [|gbs1-gnum1-1>=0|]]]
+-----------------------
+Global control function
+-----------------------
+[addgateway2=>[dedeidredeidpa0 => top;
+               dedeidreididpa0 => top;
+               dedeidretridpa0 => top;
+               deididredeidpa0 => top;
+               deididreididpa0 => top;
+               deididretridpa0 => top;
+               demeidredeidpa0 => top;
+               demeidreididpa0 => top;
+               demeidretridpa0 => top;
+               iddeidredeidpa0 => top;
+               iddeidreididpa0 => top;
+               iddeidretridpa0 => top;
+               idididredeidpa0 => top;
+               idididreididpa0 => top;
+               idididretridpa0 => top;
+               idmeidredeidpa0 => top;
+               idmeidreididpa0 => top;
+               idmeidretridpa0 => top;
+               medeidredeidpa0 => top;
+               medeidreididpa0 => top;
+               medeidretridpa0 => top;
+               meididredeidpa0 => top;
+               meididreididpa0 => top;
+               meididretridpa0 => top;
+               memeidredeidpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+               memeidreididpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+               memeidretridpa0 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|]];
+ forward=>[dedeidretridpa0 => [|gnum1-1>=0|];
+           deididretridpa0 => [|gnum1-1>=0|];
+           demeidretridpa0 => [|gnum1-1>=0|];
+           iddeidretridpa0 => [|gnum1-1>=0|];
+           idididretridpa0 => [|gnum1-1>=0|];
+           idmeidretridpa0 => [|gnum1-1>=0|];
+           medeidretridpa0 => [|gnum1-1>=0|];
+           meididretridpa0 => [|gnum1-1>=0|];
+           memeidretridpa0 => [|-gnum1+snnum1+snnum2-srnum1>=0; gnum1-1>=0|]];
+ reconfig=>[dedeidredeidpb1 => top;
+            dedeidreididpb1 => top;
+            dedeidretridpb1 => top;
+            deididredeidpb1 => top;
+            deididreididpb1 => top;
+            deididretridpb1 => top;
+            demeidredeidpb1 => top;
+            demeidreididpb1 => top;
+            demeidretridpb1 => top;
+            iddeidredeidpb1 => top;
+            iddeidreididpb1 => top;
+            iddeidretridpb1 => top;
+            idididredeidpb1 => top;
+            idididreididpa0 => top;
+            idididreididpb1 => top;
+            idididretridpb1 => top;
+            idmeidredeidpb1 => top;
+            idmeidreididpb1 => top;
+            idmeidretridpb1 => top;
+            medeidredeidpb1 => top;
+            medeidreididpb1 => top;
+            medeidretridpb1 => top;
+            meididredeidpb1 => top;
+            meididreididpb1 => top;
+            meididretridpb1 => top;
+            memeidredeidpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+            memeidreididpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|];
+            memeidretridpb1 => [|-gnum1-gnum2+snnum1+snnum2-srnum1>=0|]];
+ send=>[demeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        idmeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        medeidreididpa0 => [|gbs1-gnum1-1>=0|];
+        meididreididpa0 => [|gbs1-gnum1-1>=0|];
+        memeidreididpa0 => [|gbs1-gnum1-1>=0|]]]
+Controlled system written in file controlled_test.sts
+Total number of loops in the fixpoint computations: 0
+Execution times:       0.50 s   (total)
+                       0.00 s   (parsing)
+                       0.00 s   (consistency check)
+                       0.20 s   (Computation of coreach(Bad))
+Maximum heap size:     5.75 MiB
+********************************
+********** THE END *************
+********************************

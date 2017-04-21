@@ -1,0 +1,2272 @@
+automaton test :
+ events: 
+ 
+ C reconfig;
+ U measure;
+ U dies;
+ U charges;
+ U process;
+ U die;
+ U charge;
+ C send;
+ C forward;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;
+ C connsensor1gateway2;int senergy1;
+int snnum1;
+int senergy2;
+int snnum2;
+int senergy3;
+int snnum3;
+int senergy4;
+int snnum4;
+int srnum1;
+int genergy2;
+int gnum2;
+int gbs2;
+int critical;
+
+ initial : idididdereidtrph12 , iddemedereididph12 , dedememereiddeph12 , dededeidreididph12 , medemeidreidtrph12 , mememeidreididph12 , medeiddereiddeph12 , ididdeidreidtrph12 , memeididreiddeph12 , mededeidreidtrph12 , memedemereididph12 , deididmereiddeph12 , idididmereiddeph12 , memememereidtrph12 , iddemeidreiddeph12 , memedeidreiddeph12 , dememedereididph12 , mememeidreiddeph12 , deiddemereiddeph12 , dememedereidtrph12 , ididmemereidtrph12 , memeiddereididph12 , deiddemereididph12 , ididmeidreididph12 , deididdereididph12 , medeidmereididph12 , medededereidtrph12 , meidmedereiddeph12 , iddeidmereiddeph12 , idmemedereididph12 , medememereiddeph12 , medemedereiddeph12 , mememedereidtrph12 , demeidmereiddeph12 , demedeidreididph12 , demeiddereididph12 , memedeidreidtrph12 , idmedeidreiddeph12 , iddemeidreidtrph12 , meidmeidreididph12 , dededeidreiddeph12 , idididmereidtrph12 , deididmereididph12 , iddedemereididph12 , memememereiddeph12 , idmemeidreiddeph12 , memememereididph12 , idmedemereiddeph12 , meididmereidtrph12 , deidmedereidtrph12 , deiddedereididph12 , iddeididreidtrph12 , meiddemereididph12 , dedemeidreididph12 , medememereidtrph12 , memeiddereidtrph12 , meiddedereidtrph12 , meididmereididph12 , memeididreidtrph12 , mededemereidtrph12 , demeididreididph12 , iddemedereidtrph12 , deidididreidtrph12 , idmememereididph12 , ididmemereididph12 , dedeidmereiddeph12 , idmededereiddeph12 , idmeiddereidtrph12 , meidmeidreiddeph12 , dedemedereidtrph12 , memededereididph12 , iddeidmereidtrph12 , deidididreididph12 , dedeiddereidtrph12 , iddeididreididph12 , ididdemereididph12 , medemeidreididph12 , deididdereidtrph12 , ididmemereiddeph12 , deiddeidreiddeph12 , idmedeidreidtrph12 , ididdedereiddeph12 , meidmedereididph12 , medeididreiddeph12 , deidmedereiddeph12 , ididdemereiddeph12 , memededereidtrph12 , medeidmereiddeph12 , deiddedereidtrph12 , dedemedereididph12 , medeiddereidtrph12 , meididdereididph12 , meididmereiddeph12 , deiddemereidtrph12 , memededereiddeph12 , iddedemereiddeph12 , ididdedereidtrph12 , memeidmereididph12 , demededereidtrph12 , ididdedereididph12 , deidmeidreiddeph12 , deididdereiddeph12 , meidmedereidtrph12 , iddedeidreidtrph12 , deidmemereidtrph12 , memedemereidtrph12 , meidmeidreidtrph12 , meiddeidreiddeph12 , iddededereididph12 , idmememereidtrph12 , dedemeidreidtrph12 , deidmeidreididph12 , idididdereiddeph12 , memeidmereidtrph12 , memedeidreididph12 , iddememereidtrph12 , ididmedereiddeph12 , iddeiddereididph12 , ididmedereidtrph12 , demememereididph12 , ididmeidreidtrph12 , deiddeidreididph12 , medemeidreiddeph12 , mededemereiddeph12 , iddemedereiddeph12 , demeididreiddeph12 , demeidmereididph12 , medededereididph12 , dedememereididph12 , medededereiddeph12 , meiddeidreididph12 , meiddemereiddeph12 , dededemereididph12 , dededemereidtrph12 , iddedeidreiddeph12 , idmedemereidtrph12 , dedemeidreiddeph12 , mededeidreididph12 , demedemereidtrph12 , dedeidmereididph12 , dememeidreidtrph12 , idmeididreiddeph12 , ididididreididph12 , dedeididreidtrph12 , ididmeidreiddeph12 , demeididreidtrph12 , dedededereidtrph12 , idmemedereiddeph12 , dedeididreiddeph12 , demedemereididph12 , ididididreidtrph12 , dededeidreidtrph12 , deidmeidreidtrph12 , dedememereidtrph12 , deidmemereididph12 , idmememereiddeph12 , iddememereiddeph12 , iddededereidtrph12 , medemedereidtrph12 , demedeidreiddeph12 , demememereiddeph12 , meidmemereididph12 , deiddedereiddeph12 , dedededereiddeph12 , idmemeidreidtrph12 , iddeidmereididph12 , meididdereidtrph12 , idmemeidreididph12 , idmeidmereididph12 , medememereididph12 , memedemereiddeph12 , dememedereiddeph12 , dedeididreididph12 , idididdereididph12 , meididdereiddeph12 , dedeiddereididph12 , ididmedereididph12 , mededemereididph12 , mememeidreidtrph12 , dememeidreiddeph12 , meidmemereidtrph12 , medemedereididph12 , deiddeidreidtrph12 , idmedemereididph12 , mededeidreiddeph12 , demeiddereiddeph12 , idmeidmereidtrph12 , memeiddereiddeph12 , meidididreidtrph12 , idmeididreididph12 , idmemedereidtrph12 , dedeiddereiddeph12 , idididmereididph12 , medeididreidtrph12 , meiddedereiddeph12 , memeidmereiddeph12 , iddedeidreididph12 , meidididreiddeph12 , meidididreididph12 , idmeidmereiddeph12 , deidmedereididph12 , iddeiddereiddeph12 , demededereiddeph12 , dedeidmereidtrph12 , iddeididreiddeph12 , ididdemereidtrph12 , demedemereiddeph12 , idmeididreidtrph12 , iddememereididph12 , mememedereiddeph12 , demededereididph12 , deididmereidtrph12 , demeidmereidtrph12 , medeidmereidtrph12 , idmeiddereiddeph12 , meiddemereidtrph12 , dememeidreididph12 , deidididreiddeph12 , ididididreiddeph12 , idmededereididph12 , demememereidtrph12 , memeididreididph12 , demeiddereidtrph12 , iddedemereidtrph12 , ididdeidreididph12 , idmeiddereididph12 , idmededereidtrph12 , iddemeidreididph12 , medeiddereididph12 , dededemereiddeph12 , dedededereididph12 , iddededereiddeph12 , iddeiddereidtrph12 , mememedereididph12 , deidmemereiddeph12 , meidmemereiddeph12 , medeididreididph12 , ididdeidreiddeph12 , meiddeidreidtrph12 , idmedeidreididph12 , demedeidreidtrph12 , dedemedereiddeph12 , meiddedereididph12
+ state idididdereidtrph12 : 
+         to ididididreidtrph12 :  when true,charges with senergy4=100;
+         to idididdereidtrpi13 :  when true,connsensor1gateway2;
+ state iddemedereididph12 : 
+         to iddemeidreididph12 :  when true,charges with senergy4=100;
+         to iddemedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddemedereiddeph12 :  when genergy2==0,die;
+         to iddemedereididpi13 :  when true,connsensor1gateway2;
+ state dedememereiddeph12 : 
+         to dedememereididph12 :  when true,charge with genergy2=100;
+         to dedememereiddepi13 :  when true,connsensor1gateway2;
+ state dededeidreididph12 : 
+         to dededeidreiddeph12 :  when genergy2==0,die;
+         to dededeidreididpi13 :  when true,connsensor1gateway2;
+         to dedededereididph12 :  when senergy4==0,dies;
+         to dededeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dededemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state medemeidreidtrph12 : 
+         to medememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to medemedereidtrph12 :  when senergy4==0,dies;
+         to medemeidreidtrpi13 :  when true,connsensor1gateway2;
+ state mememeidreididph12 : 
+         to mememeidreiddeph12 :  when genergy2==0,die;
+         to mememedereididph12 :  when senergy4==0,dies;
+         to mememeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to mememeidreididpi13 :  when true,connsensor1gateway2;
+         to memememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state medeiddereiddeph12 : 
+         to medeididreiddeph12 :  when true,charges with senergy4=100;
+         to medeiddereiddepi13 :  when true,connsensor1gateway2;
+         to medeiddereididph12 :  when true,charge with genergy2=100;
+ state ididdeidreidtrph12 : 
+         to ididdedereidtrph12 :  when senergy4==0,dies;
+         to ididdemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididdeidreidtrpi13 :  when true,connsensor1gateway2;
+ state memeididreiddeph12 : 
+         to memeididreididph12 :  when true,charge with genergy2=100;
+         to memeiddereiddeph12 :  when senergy4==0,dies;
+         to memeididreiddepi13 :  when true,connsensor1gateway2;
+         to memeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state mededeidreidtrph12 : 
+         to mededemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to mededeidreidtrpi13 :  when true,connsensor1gateway2;
+         to medededereidtrph12 :  when senergy4==0,dies;
+ state memedemereididph12 : 
+         to memedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to memedemereiddeph12 :  when genergy2==0,die;
+         to memedemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to memedemereididpi13 :  when true,connsensor1gateway2;
+ state deididmereiddeph12 : 
+         to deididmereididph12 :  when true,charge with genergy2=100;
+         to deididmereiddepi13 :  when true,connsensor1gateway2;
+ state idididmereiddeph12 : 
+         to idididmereididph12 :  when true,charge with genergy2=100;
+         to idididmereiddepi13 :  when true,connsensor1gateway2;
+ state memememereidtrph12 : 
+         to memememereidtrpi13 :  when true,connsensor1gateway2;
+ state iddemeidreiddeph12 : 
+         to iddemeidreididph12 :  when true,charge with genergy2=100;
+         to iddemeidreiddepi13 :  when true,connsensor1gateway2;
+         to iddemedereiddeph12 :  when senergy4==0,dies;
+         to iddememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state memedeidreiddeph12 : 
+         to memededereiddeph12 :  when senergy4==0,dies;
+         to memedeidreiddepi13 :  when true,connsensor1gateway2;
+         to memedeidreididph12 :  when true,charge with genergy2=100;
+         to memedemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state dememedereididph12 : 
+         to dememedereiddeph12 :  when genergy2==0,die;
+         to dememeidreididph12 :  when true,charges with senergy4=100;
+         to dememedereididpi13 :  when true,connsensor1gateway2;
+         to dememedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state mememeidreiddeph12 : 
+         to mememeidreiddepi13 :  when true,connsensor1gateway2;
+         to mememedereiddeph12 :  when senergy4==0,dies;
+         to memememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to mememeidreididph12 :  when true,charge with genergy2=100;
+ state deiddemereiddeph12 : 
+         to deiddemereididph12 :  when true,charge with genergy2=100;
+         to deiddemereiddepi13 :  when true,connsensor1gateway2;
+ state dememedereidtrph12 : 
+         to dememeidreidtrph12 :  when true,charges with senergy4=100;
+         to dememedereidtrpi13 :  when true,connsensor1gateway2;
+ state ididmemereidtrph12 : 
+         to ididmemereidtrpi13 :  when true,connsensor1gateway2;
+ state memeiddereididph12 : 
+         to memeididreididph12 :  when true,charges with senergy4=100;
+         to memeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memeiddereiddeph12 :  when genergy2==0,die;
+         to memeiddereididpi13 :  when true,connsensor1gateway2;
+ state deiddemereididph12 : 
+         to deiddemereididpi13 :  when true,connsensor1gateway2;
+         to deiddeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to deiddemereiddeph12 :  when genergy2==0,die;
+         to deiddemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deiddeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state ididmeidreididph12 : 
+         to ididmeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to ididmedereididph12 :  when senergy4==0,dies;
+         to ididmemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididmeidreididpi13 :  when true,connsensor1gateway2;
+         to ididmeidreiddeph12 :  when genergy2==0,die;
+ state deididdereididph12 : 
+         to deididdereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deididdereididpi13 :  when true,connsensor1gateway2;
+         to deidididreididph12 :  when true,charges with senergy4=100;
+         to deididdereiddeph12 :  when genergy2==0,die;
+ state medeidmereididph12 : 
+         to medeidmereididpi13 :  when true,connsensor1gateway2;
+         to medeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to medeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to medeidmereiddeph12 :  when genergy2==0,die;
+         to medeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state medededereidtrph12 : 
+         to medededereidtrpi13 :  when true,connsensor1gateway2;
+         to mededeidreidtrph12 :  when true,charges with senergy4=100;
+ state meidmedereiddeph12 : 
+         to meidmedereiddepi13 :  when true,connsensor1gateway2;
+         to meidmedereididph12 :  when true,charge with genergy2=100;
+         to meidmeidreiddeph12 :  when true,charges with senergy4=100;
+ state iddeidmereiddeph12 : 
+         to iddeidmereididph12 :  when true,charge with genergy2=100;
+         to iddeidmereiddepi13 :  when true,connsensor1gateway2;
+ state idmemedereididph12 : 
+         to idmemedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmemedereididpi13 :  when true,connsensor1gateway2;
+         to idmemedereiddeph12 :  when genergy2==0,die;
+         to idmemeidreididph12 :  when true,charges with senergy4=100;
+ state medememereiddeph12 : 
+         to medememereididph12 :  when true,charge with genergy2=100;
+         to medememereiddepi13 :  when true,connsensor1gateway2;
+ state medemedereiddeph12 : 
+         to medemeidreiddeph12 :  when true,charges with senergy4=100;
+         to medemedereiddepi13 :  when true,connsensor1gateway2;
+         to medemedereididph12 :  when true,charge with genergy2=100;
+ state mememedereidtrph12 : 
+         to mememedereidtrpi13 :  when true,connsensor1gateway2;
+         to mememeidreidtrph12 :  when true,charges with senergy4=100;
+ state demeidmereiddeph12 : 
+         to demeidmereididph12 :  when true,charge with genergy2=100;
+         to demeidmereiddepi13 :  when true,connsensor1gateway2;
+ state demedeidreididph12 : 
+         to demedemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demedeidreiddeph12 :  when genergy2==0,die;
+         to demedeidreididpi13 :  when true,connsensor1gateway2;
+         to demededereididph12 :  when senergy4==0,dies;
+         to demedeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state demeiddereididph12 : 
+         to demeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to demeiddereiddeph12 :  when genergy2==0,die;
+         to demeididreididph12 :  when true,charges with senergy4=100;
+         to demeiddereididpi13 :  when true,connsensor1gateway2;
+ state memedeidreidtrph12 : 
+         to memededereidtrph12 :  when senergy4==0,dies;
+         to memedeidreidtrpi13 :  when true,connsensor1gateway2;
+         to memedemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmedeidreiddeph12 : 
+         to idmedemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmededereiddeph12 :  when senergy4==0,dies;
+         to idmedeidreiddepi13 :  when true,connsensor1gateway2;
+         to idmedeidreididph12 :  when true,charge with genergy2=100;
+ state iddemeidreidtrph12 : 
+         to iddemedereidtrph12 :  when senergy4==0,dies;
+         to iddemeidreidtrpi13 :  when true,connsensor1gateway2;
+         to iddememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state meidmeidreididph12 : 
+         to meidmemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to meidmeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to meidmeidreididpi13 :  when true,connsensor1gateway2;
+         to meidmeidreiddeph12 :  when genergy2==0,die;
+         to meidmedereididph12 :  when senergy4==0,dies;
+ state dededeidreiddeph12 : 
+         to dededeidreididph12 :  when true,charge with genergy2=100;
+         to dedededereiddeph12 :  when senergy4==0,dies;
+         to dededeidreiddepi13 :  when true,connsensor1gateway2;
+         to dededemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idididmereidtrph12 : 
+         to idididmereidtrpi13 :  when true,connsensor1gateway2;
+ state deididmereididph12 : 
+         to deidididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to deididmereiddeph12 :  when genergy2==0,die;
+         to deididmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deididmereididpi13 :  when true,connsensor1gateway2;
+         to deidididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+ state iddedemereididph12 : 
+         to iddedemereididpi13 :  when true,connsensor1gateway2;
+         to iddedemereiddeph12 :  when genergy2==0,die;
+         to iddedemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to iddedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state memememereiddeph12 : 
+         to memememereiddepi13 :  when true,connsensor1gateway2;
+         to memememereididph12 :  when true,charge with genergy2=100;
+ state idmemeidreiddeph12 : 
+         to idmemeidreididph12 :  when true,charge with genergy2=100;
+         to idmemedereiddeph12 :  when senergy4==0,dies;
+         to idmememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmemeidreiddepi13 :  when true,connsensor1gateway2;
+ state memememereididph12 : 
+         to memememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memememereiddeph12 :  when genergy2==0,die;
+         to mememeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to memememereididpi13 :  when true,connsensor1gateway2;
+         to mememeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state idmedemereiddeph12 : 
+         to idmedemereididph12 :  when true,charge with genergy2=100;
+         to idmedemereiddepi13 :  when true,connsensor1gateway2;
+ state meididmereidtrph12 : 
+         to meididmereidtrpi13 :  when true,connsensor1gateway2;
+ state deidmedereidtrph12 : 
+         to deidmeidreidtrph12 :  when true,charges with senergy4=100;
+         to deidmedereidtrpi13 :  when true,connsensor1gateway2;
+ state deiddedereididph12 : 
+         to deiddedereididpi13 :  when true,connsensor1gateway2;
+         to deiddedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deiddedereiddeph12 :  when genergy2==0,die;
+         to deiddeidreididph12 :  when true,charges with senergy4=100;
+ state iddeididreidtrph12 : 
+         to iddeiddereidtrph12 :  when senergy4==0,dies;
+         to iddeididreidtrpi13 :  when true,connsensor1gateway2;
+         to iddeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state meiddemereididph12 : 
+         to meiddemereididpi13 :  when true,connsensor1gateway2;
+         to meiddemereiddeph12 :  when genergy2==0,die;
+         to meiddeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to meiddeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to meiddemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state dedemeidreididph12 : 
+         to dedemeidreiddeph12 :  when genergy2==0,die;
+         to dedemedereididph12 :  when senergy4==0,dies;
+         to dedemeidreididpi13 :  when true,connsensor1gateway2;
+         to dedemeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state medememereidtrph12 : 
+         to medememereidtrpi13 :  when true,connsensor1gateway2;
+ state memeiddereidtrph12 : 
+         to memeiddereidtrpi13 :  when true,connsensor1gateway2;
+         to memeididreidtrph12 :  when true,charges with senergy4=100;
+ state meiddedereidtrph12 : 
+         to meiddeidreidtrph12 :  when true,charges with senergy4=100;
+         to meiddedereidtrpi13 :  when true,connsensor1gateway2;
+ state meididmereididph12 : 
+         to meididmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to meididmereididpi13 :  when true,connsensor1gateway2;
+         to meididmereiddeph12 :  when genergy2==0,die;
+         to meidididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to meidididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+ state memeididreidtrph12 : 
+         to memeiddereidtrph12 :  when senergy4==0,dies;
+         to memeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to memeididreidtrpi13 :  when true,connsensor1gateway2;
+ state mededemereidtrph12 : 
+         to mededemereidtrpi13 :  when true,connsensor1gateway2;
+ state demeididreididph12 : 
+         to demeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demeididreiddeph12 :  when genergy2==0,die;
+         to demeididreididpi13 :  when true,connsensor1gateway2;
+         to demeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to demeiddereididph12 :  when senergy4==0,dies;
+ state iddemedereidtrph12 : 
+         to iddemedereidtrpi13 :  when true,connsensor1gateway2;
+         to iddemeidreidtrph12 :  when true,charges with senergy4=100;
+ state deidididreidtrph12 : 
+         to deididdereidtrph12 :  when senergy4==0,dies;
+         to deididmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deidididreidtrpi13 :  when true,connsensor1gateway2;
+ state idmememereididph12 : 
+         to idmememereiddeph12 :  when genergy2==0,die;
+         to idmememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to idmemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to idmememereididpi13 :  when true,connsensor1gateway2;
+ state ididmemereididph12 : 
+         to ididmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to ididmemereiddeph12 :  when genergy2==0,die;
+         to ididmemereididpi13 :  when true,connsensor1gateway2;
+         to ididmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to ididmemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state dedeidmereiddeph12 : 
+         to dedeidmereiddepi13 :  when true,connsensor1gateway2;
+         to dedeidmereididph12 :  when true,charge with genergy2=100;
+ state idmededereiddeph12 : 
+         to idmededereididph12 :  when true,charge with genergy2=100;
+         to idmedeidreiddeph12 :  when true,charges with senergy4=100;
+         to idmededereiddepi13 :  when true,connsensor1gateway2;
+ state idmeiddereidtrph12 : 
+         to idmeididreidtrph12 :  when true,charges with senergy4=100;
+         to idmeiddereidtrpi13 :  when true,connsensor1gateway2;
+ state meidmeidreiddeph12 : 
+         to meidmedereiddeph12 :  when senergy4==0,dies;
+         to meidmeidreididph12 :  when true,charge with genergy2=100;
+         to meidmeidreiddepi13 :  when true,connsensor1gateway2;
+         to meidmemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state dedemedereidtrph12 : 
+         to dedemeidreidtrph12 :  when true,charges with senergy4=100;
+         to dedemedereidtrpi13 :  when true,connsensor1gateway2;
+ state memededereididph12 : 
+         to memededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memededereididpi13 :  when true,connsensor1gateway2;
+         to memedeidreididph12 :  when true,charges with senergy4=100;
+         to memededereiddeph12 :  when genergy2==0,die;
+ state iddeidmereidtrph12 : 
+         to iddeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state deidididreididph12 : 
+         to deididmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deidididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deididdereididph12 :  when senergy4==0,dies;
+         to deidididreiddeph12 :  when genergy2==0,die;
+         to deidididreididpi13 :  when true,connsensor1gateway2;
+ state dedeiddereidtrph12 : 
+         to dedeididreidtrph12 :  when true,charges with senergy4=100;
+         to dedeiddereidtrpi13 :  when true,connsensor1gateway2;
+ state iddeididreididph12 : 
+         to iddeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to iddeiddereididph12 :  when senergy4==0,dies;
+         to iddeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddeididreiddeph12 :  when genergy2==0,die;
+         to iddeididreididpi13 :  when true,connsensor1gateway2;
+ state ididdemereididph12 : 
+         to ididdeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to ididdemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to ididdemereiddeph12 :  when genergy2==0,die;
+         to ididdemereididpi13 :  when true,connsensor1gateway2;
+         to ididdeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state medemeidreididph12 : 
+         to medemeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to medemeidreiddeph12 :  when genergy2==0,die;
+         to medemedereididph12 :  when senergy4==0,dies;
+         to medemeidreididpi13 :  when true,connsensor1gateway2;
+         to medememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state deididdereidtrph12 : 
+         to deidididreidtrph12 :  when true,charges with senergy4=100;
+         to deididdereidtrpi13 :  when true,connsensor1gateway2;
+ state ididmemereiddeph12 : 
+         to ididmemereiddepi13 :  when true,connsensor1gateway2;
+         to ididmemereididph12 :  when true,charge with genergy2=100;
+ state deiddeidreiddeph12 : 
+         to deiddeidreididph12 :  when true,charge with genergy2=100;
+         to deiddeidreiddepi13 :  when true,connsensor1gateway2;
+         to deiddedereiddeph12 :  when senergy4==0,dies;
+         to deiddemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmedeidreidtrph12 : 
+         to idmedeidreidtrpi13 :  when true,connsensor1gateway2;
+         to idmededereidtrph12 :  when senergy4==0,dies;
+         to idmedemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state ididdedereiddeph12 : 
+         to ididdeidreiddeph12 :  when true,charges with senergy4=100;
+         to ididdedereiddepi13 :  when true,connsensor1gateway2;
+         to ididdedereididph12 :  when true,charge with genergy2=100;
+ state meidmedereididph12 : 
+         to meidmedereiddeph12 :  when genergy2==0,die;
+         to meidmedereididpi13 :  when true,connsensor1gateway2;
+         to meidmeidreididph12 :  when true,charges with senergy4=100;
+         to meidmedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state medeididreiddeph12 : 
+         to medeididreiddepi13 :  when true,connsensor1gateway2;
+         to medeiddereiddeph12 :  when senergy4==0,dies;
+         to medeididreididph12 :  when true,charge with genergy2=100;
+         to medeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state deidmedereiddeph12 : 
+         to deidmeidreiddeph12 :  when true,charges with senergy4=100;
+         to deidmedereididph12 :  when true,charge with genergy2=100;
+         to deidmedereiddepi13 :  when true,connsensor1gateway2;
+ state ididdemereiddeph12 : 
+         to ididdemereiddepi13 :  when true,connsensor1gateway2;
+         to ididdemereididph12 :  when true,charge with genergy2=100;
+ state memededereidtrph12 : 
+         to memedeidreidtrph12 :  when true,charges with senergy4=100;
+         to memededereidtrpi13 :  when true,connsensor1gateway2;
+ state medeidmereiddeph12 : 
+         to medeidmereididph12 :  when true,charge with genergy2=100;
+         to medeidmereiddepi13 :  when true,connsensor1gateway2;
+ state deiddedereidtrph12 : 
+         to deiddedereidtrpi13 :  when true,connsensor1gateway2;
+         to deiddeidreidtrph12 :  when true,charges with senergy4=100;
+ state dedemedereididph12 : 
+         to dedemedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedemeidreididph12 :  when true,charges with senergy4=100;
+         to dedemedereiddeph12 :  when genergy2==0,die;
+         to dedemedereididpi13 :  when true,connsensor1gateway2;
+ state medeiddereidtrph12 : 
+         to medeididreidtrph12 :  when true,charges with senergy4=100;
+         to medeiddereidtrpi13 :  when true,connsensor1gateway2;
+ state meididdereididph12 : 
+         to meididdereididpi13 :  when true,connsensor1gateway2;
+         to meididdereiddeph12 :  when genergy2==0,die;
+         to meidididreididph12 :  when true,charges with senergy4=100;
+         to meididdereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state meididmereiddeph12 : 
+         to meididmereiddepi13 :  when true,connsensor1gateway2;
+         to meididmereididph12 :  when true,charge with genergy2=100;
+ state deiddemereidtrph12 : 
+         to deiddemereidtrpi13 :  when true,connsensor1gateway2;
+ state memededereiddeph12 : 
+         to memededereididph12 :  when true,charge with genergy2=100;
+         to memedeidreiddeph12 :  when true,charges with senergy4=100;
+         to memededereiddepi13 :  when true,connsensor1gateway2;
+ state iddedemereiddeph12 : 
+         to iddedemereididph12 :  when true,charge with genergy2=100;
+         to iddedemereiddepi13 :  when true,connsensor1gateway2;
+ state ididdedereidtrph12 : 
+         to ididdeidreidtrph12 :  when true,charges with senergy4=100;
+         to ididdedereidtrpi13 :  when true,connsensor1gateway2;
+ state memeidmereididph12 : 
+         to memeidmereididpi13 :  when true,connsensor1gateway2;
+         to memeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to memeidmereiddeph12 :  when genergy2==0,die;
+         to memeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to memeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state demededereidtrph12 : 
+         to demedeidreidtrph12 :  when true,charges with senergy4=100;
+         to demededereidtrpi13 :  when true,connsensor1gateway2;
+ state ididdedereididph12 : 
+         to ididdedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to ididdeidreididph12 :  when true,charges with senergy4=100;
+         to ididdedereididpi13 :  when true,connsensor1gateway2;
+         to ididdedereiddeph12 :  when genergy2==0,die;
+ state deidmeidreiddeph12 : 
+         to deidmemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deidmeidreididph12 :  when true,charge with genergy2=100;
+         to deidmedereiddeph12 :  when senergy4==0,dies;
+         to deidmeidreiddepi13 :  when true,connsensor1gateway2;
+ state deididdereiddeph12 : 
+         to deididdereiddepi13 :  when true,connsensor1gateway2;
+         to deididdereididph12 :  when true,charge with genergy2=100;
+         to deidididreiddeph12 :  when true,charges with senergy4=100;
+ state meidmedereidtrph12 : 
+         to meidmeidreidtrph12 :  when true,charges with senergy4=100;
+         to meidmedereidtrpi13 :  when true,connsensor1gateway2;
+ state iddedeidreidtrph12 : 
+         to iddededereidtrph12 :  when senergy4==0,dies;
+         to iddedeidreidtrpi13 :  when true,connsensor1gateway2;
+         to iddedemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state deidmemereidtrph12 : 
+         to deidmemereidtrpi13 :  when true,connsensor1gateway2;
+ state memedemereidtrph12 : 
+         to memedemereidtrpi13 :  when true,connsensor1gateway2;
+ state meidmeidreidtrph12 : 
+         to meidmemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to meidmedereidtrph12 :  when senergy4==0,dies;
+         to meidmeidreidtrpi13 :  when true,connsensor1gateway2;
+ state meiddeidreiddeph12 : 
+         to meiddeidreiddepi13 :  when true,connsensor1gateway2;
+         to meiddeidreididph12 :  when true,charge with genergy2=100;
+         to meiddedereiddeph12 :  when senergy4==0,dies;
+         to meiddemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state iddededereididph12 : 
+         to iddedeidreididph12 :  when true,charges with senergy4=100;
+         to iddededereiddeph12 :  when genergy2==0,die;
+         to iddededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddededereididpi13 :  when true,connsensor1gateway2;
+ state idmememereidtrph12 : 
+         to idmememereidtrpi13 :  when true,connsensor1gateway2;
+ state dedemeidreidtrph12 : 
+         to dedememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dedemedereidtrph12 :  when senergy4==0,dies;
+         to dedemeidreidtrpi13 :  when true,connsensor1gateway2;
+ state deidmeidreididph12 : 
+         to deidmeidreididpi13 :  when true,connsensor1gateway2;
+         to deidmeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deidmeidreiddeph12 :  when genergy2==0,die;
+         to deidmemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deidmedereididph12 :  when senergy4==0,dies;
+ state idididdereiddeph12 : 
+         to ididididreiddeph12 :  when true,charges with senergy4=100;
+         to idididdereididph12 :  when true,charge with genergy2=100;
+         to idididdereiddepi13 :  when true,connsensor1gateway2;
+ state memeidmereidtrph12 : 
+         to memeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state memedeidreididph12 : 
+         to memededereididph12 :  when senergy4==0,dies;
+         to memedeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memedemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to memedeidreididpi13 :  when true,connsensor1gateway2;
+         to memedeidreiddeph12 :  when genergy2==0,die;
+ state iddememereidtrph12 : 
+         to iddememereidtrpi13 :  when true,connsensor1gateway2;
+ state ididmedereiddeph12 : 
+         to ididmedereididph12 :  when true,charge with genergy2=100;
+         to ididmeidreiddeph12 :  when true,charges with senergy4=100;
+         to ididmedereiddepi13 :  when true,connsensor1gateway2;
+ state iddeiddereididph12 : 
+         to iddeididreididph12 :  when true,charges with senergy4=100;
+         to iddeiddereididpi13 :  when true,connsensor1gateway2;
+         to iddeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddeiddereiddeph12 :  when genergy2==0,die;
+ state ididmedereidtrph12 : 
+         to ididmedereidtrpi13 :  when true,connsensor1gateway2;
+         to ididmeidreidtrph12 :  when true,charges with senergy4=100;
+ state demememereididph12 : 
+         to dememeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to demememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dememeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to demememereididpi13 :  when true,connsensor1gateway2;
+         to demememereiddeph12 :  when genergy2==0,die;
+ state ididmeidreidtrph12 : 
+         to ididmemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididmedereidtrph12 :  when senergy4==0,dies;
+         to ididmeidreidtrpi13 :  when true,connsensor1gateway2;
+ state deiddeidreididph12 : 
+         to deiddemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deiddeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deiddedereididph12 :  when senergy4==0,dies;
+         to deiddeidreiddeph12 :  when genergy2==0,die;
+         to deiddeidreididpi13 :  when true,connsensor1gateway2;
+ state medemeidreiddeph12 : 
+         to medemedereiddeph12 :  when senergy4==0,dies;
+         to medemeidreiddepi13 :  when true,connsensor1gateway2;
+         to medemeidreididph12 :  when true,charge with genergy2=100;
+         to medememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state mededemereiddeph12 : 
+         to mededemereiddepi13 :  when true,connsensor1gateway2;
+         to mededemereididph12 :  when true,charge with genergy2=100;
+ state iddemedereiddeph12 : 
+         to iddemedereiddepi13 :  when true,connsensor1gateway2;
+         to iddemedereididph12 :  when true,charge with genergy2=100;
+         to iddemeidreiddeph12 :  when true,charges with senergy4=100;
+ state demeididreiddeph12 : 
+         to demeiddereiddeph12 :  when senergy4==0,dies;
+         to demeididreiddepi13 :  when true,connsensor1gateway2;
+         to demeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demeididreididph12 :  when true,charge with genergy2=100;
+ state demeidmereididph12 : 
+         to demeidmereiddeph12 :  when genergy2==0,die;
+         to demeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to demeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to demeidmereididpi13 :  when true,connsensor1gateway2;
+         to demeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+ state medededereididph12 : 
+         to medededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to mededeidreididph12 :  when true,charges with senergy4=100;
+         to medededereididpi13 :  when true,connsensor1gateway2;
+         to medededereiddeph12 :  when genergy2==0,die;
+ state dedememereididph12 : 
+         to dedemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to dedemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to dedememereididpi13 :  when true,connsensor1gateway2;
+         to dedememereiddeph12 :  when genergy2==0,die;
+         to dedememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state medededereiddeph12 : 
+         to mededeidreiddeph12 :  when true,charges with senergy4=100;
+         to medededereididph12 :  when true,charge with genergy2=100;
+         to medededereiddepi13 :  when true,connsensor1gateway2;
+ state meiddeidreididph12 : 
+         to meiddemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to meiddeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to meiddeidreiddeph12 :  when genergy2==0,die;
+         to meiddeidreididpi13 :  when true,connsensor1gateway2;
+         to meiddedereididph12 :  when senergy4==0,dies;
+ state meiddemereiddeph12 : 
+         to meiddemereididph12 :  when true,charge with genergy2=100;
+         to meiddemereiddepi13 :  when true,connsensor1gateway2;
+ state dededemereididph12 : 
+         to dededemereiddeph12 :  when genergy2==0,die;
+         to dededemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dededeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to dededeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to dededemereididpi13 :  when true,connsensor1gateway2;
+ state dededemereidtrph12 : 
+         to dededemereidtrpi13 :  when true,connsensor1gateway2;
+ state iddedeidreiddeph12 : 
+         to iddedeidreiddepi13 :  when true,connsensor1gateway2;
+         to iddedeidreididph12 :  when true,charge with genergy2=100;
+         to iddedemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to iddededereiddeph12 :  when senergy4==0,dies;
+ state idmedemereidtrph12 : 
+         to idmedemereidtrpi13 :  when true,connsensor1gateway2;
+ state dedemeidreiddeph12 : 
+         to dedemeidreiddepi13 :  when true,connsensor1gateway2;
+         to dedemeidreididph12 :  when true,charge with genergy2=100;
+         to dedemedereiddeph12 :  when senergy4==0,dies;
+         to dedememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state mededeidreididph12 : 
+         to mededeidreididpi13 :  when true,connsensor1gateway2;
+         to mededeidreiddeph12 :  when genergy2==0,die;
+         to medededereididph12 :  when senergy4==0,dies;
+         to mededeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to mededemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state demedemereidtrph12 : 
+         to demedemereidtrpi13 :  when true,connsensor1gateway2;
+ state dedeidmereididph12 : 
+         to dedeidmereididpi13 :  when true,connsensor1gateway2;
+         to dedeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to dedeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to dedeidmereiddeph12 :  when genergy2==0,die;
+ state dememeidreidtrph12 : 
+         to demememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dememeidreidtrpi13 :  when true,connsensor1gateway2;
+         to dememedereidtrph12 :  when senergy4==0,dies;
+ state idmeididreiddeph12 : 
+         to idmeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmeiddereiddeph12 :  when senergy4==0,dies;
+         to idmeididreiddepi13 :  when true,connsensor1gateway2;
+         to idmeididreididph12 :  when true,charge with genergy2=100;
+ state ididididreididph12 : 
+         to idididdereididph12 :  when senergy4==0,dies;
+         to ididididreiddeph12 :  when genergy2==0,die;
+         to idididmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididididreididpi13 :  when true,connsensor1gateway2;
+         to ididididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state dedeididreidtrph12 : 
+         to dedeiddereidtrph12 :  when senergy4==0,dies;
+         to dedeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dedeididreidtrpi13 :  when true,connsensor1gateway2;
+ state ididmeidreiddeph12 : 
+         to ididmeidreiddepi13 :  when true,connsensor1gateway2;
+         to ididmedereiddeph12 :  when senergy4==0,dies;
+         to ididmemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididmeidreididph12 :  when true,charge with genergy2=100;
+ state demeididreidtrph12 : 
+         to demeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demeiddereidtrph12 :  when senergy4==0,dies;
+         to demeididreidtrpi13 :  when true,connsensor1gateway2;
+ state dedededereidtrph12 : 
+         to dededeidreidtrph12 :  when true,charges with senergy4=100;
+         to dedededereidtrpi13 :  when true,connsensor1gateway2;
+ state idmemedereiddeph12 : 
+         to idmemeidreiddeph12 :  when true,charges with senergy4=100;
+         to idmemedereididph12 :  when true,charge with genergy2=100;
+         to idmemedereiddepi13 :  when true,connsensor1gateway2;
+ state dedeididreiddeph12 : 
+         to dedeididreididph12 :  when true,charge with genergy2=100;
+         to dedeiddereiddeph12 :  when senergy4==0,dies;
+         to dedeididreiddepi13 :  when true,connsensor1gateway2;
+         to dedeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state demedemereididph12 : 
+         to demedemereididpi13 :  when true,connsensor1gateway2;
+         to demedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to demedemereiddeph12 :  when genergy2==0,die;
+         to demedemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to demedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state ididididreidtrph12 : 
+         to idididmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idididdereidtrph12 :  when senergy4==0,dies;
+         to ididididreidtrpi13 :  when true,connsensor1gateway2;
+ state dededeidreidtrph12 : 
+         to dedededereidtrph12 :  when senergy4==0,dies;
+         to dededemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dededeidreidtrpi13 :  when true,connsensor1gateway2;
+ state deidmeidreidtrph12 : 
+         to deidmeidreidtrpi13 :  when true,connsensor1gateway2;
+         to deidmemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deidmedereidtrph12 :  when senergy4==0,dies;
+ state dedememereidtrph12 : 
+         to dedememereidtrpi13 :  when true,connsensor1gateway2;
+ state deidmemereididph12 : 
+         to deidmemereididpi13 :  when true,connsensor1gateway2;
+         to deidmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to deidmemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deidmemereiddeph12 :  when genergy2==0,die;
+         to deidmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+ state idmememereiddeph12 : 
+         to idmememereididph12 :  when true,charge with genergy2=100;
+         to idmememereiddepi13 :  when true,connsensor1gateway2;
+ state iddememereiddeph12 : 
+         to iddememereididph12 :  when true,charge with genergy2=100;
+         to iddememereiddepi13 :  when true,connsensor1gateway2;
+ state iddededereidtrph12 : 
+         to iddededereidtrpi13 :  when true,connsensor1gateway2;
+         to iddedeidreidtrph12 :  when true,charges with senergy4=100;
+ state medemedereidtrph12 : 
+         to medemeidreidtrph12 :  when true,charges with senergy4=100;
+         to medemedereidtrpi13 :  when true,connsensor1gateway2;
+ state demedeidreiddeph12 : 
+         to demedeidreiddepi13 :  when true,connsensor1gateway2;
+         to demedemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demedeidreididph12 :  when true,charge with genergy2=100;
+         to demededereiddeph12 :  when senergy4==0,dies;
+ state demememereiddeph12 : 
+         to demememereiddepi13 :  when true,connsensor1gateway2;
+         to demememereididph12 :  when true,charge with genergy2=100;
+ state meidmemereididph12 : 
+         to meidmemereididpi13 :  when true,connsensor1gateway2;
+         to meidmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to meidmemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to meidmeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to meidmemereiddeph12 :  when genergy2==0,die;
+ state deiddedereiddeph12 : 
+         to deiddedereiddepi13 :  when true,connsensor1gateway2;
+         to deiddedereididph12 :  when true,charge with genergy2=100;
+         to deiddeidreiddeph12 :  when true,charges with senergy4=100;
+ state dedededereiddeph12 : 
+         to dededeidreiddeph12 :  when true,charges with senergy4=100;
+         to dedededereiddepi13 :  when true,connsensor1gateway2;
+         to dedededereididph12 :  when true,charge with genergy2=100;
+ state idmemeidreidtrph12 : 
+         to idmemeidreidtrpi13 :  when true,connsensor1gateway2;
+         to idmememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmemedereidtrph12 :  when senergy4==0,dies;
+ state iddeidmereididph12 : 
+         to iddeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to iddeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddeidmereiddeph12 :  when genergy2==0,die;
+         to iddeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to iddeidmereididpi13 :  when true,connsensor1gateway2;
+ state meididdereidtrph12 : 
+         to meidididreidtrph12 :  when true,charges with senergy4=100;
+         to meididdereidtrpi13 :  when true,connsensor1gateway2;
+ state idmemeidreididph12 : 
+         to idmemeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmemeidreididpi13 :  when true,connsensor1gateway2;
+         to idmemeidreiddeph12 :  when genergy2==0,die;
+         to idmemedereididph12 :  when senergy4==0,dies;
+         to idmememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmeidmereididph12 : 
+         to idmeidmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmeidmereididpi13 :  when true,connsensor1gateway2;
+         to idmeidmereiddeph12 :  when genergy2==0,die;
+         to idmeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to idmeididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+ state medememereididph12 : 
+         to medememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to medemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to medemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to medememereiddeph12 :  when genergy2==0,die;
+         to medememereididpi13 :  when true,connsensor1gateway2;
+ state memedemereiddeph12 : 
+         to memedemereididph12 :  when true,charge with genergy2=100;
+         to memedemereiddepi13 :  when true,connsensor1gateway2;
+ state dememedereiddeph12 : 
+         to dememedereididph12 :  when true,charge with genergy2=100;
+         to dememedereiddepi13 :  when true,connsensor1gateway2;
+         to dememeidreiddeph12 :  when true,charges with senergy4=100;
+ state dedeididreididph12 : 
+         to dedeididreididpi13 :  when true,connsensor1gateway2;
+         to dedeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dedeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedeididreiddeph12 :  when genergy2==0,die;
+         to dedeiddereididph12 :  when senergy4==0,dies;
+ state idididdereididph12 : 
+         to ididididreididph12 :  when true,charges with senergy4=100;
+         to idididdereididpi13 :  when true,connsensor1gateway2;
+         to idididdereiddeph12 :  when genergy2==0,die;
+         to idididdereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state meididdereiddeph12 : 
+         to meidididreiddeph12 :  when true,charges with senergy4=100;
+         to meididdereiddepi13 :  when true,connsensor1gateway2;
+         to meididdereididph12 :  when true,charge with genergy2=100;
+ state dedeiddereididph12 : 
+         to dedeiddereiddeph12 :  when genergy2==0,die;
+         to dedeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedeiddereididpi13 :  when true,connsensor1gateway2;
+         to dedeididreididph12 :  when true,charges with senergy4=100;
+ state ididmedereididph12 : 
+         to ididmeidreididph12 :  when true,charges with senergy4=100;
+         to ididmedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to ididmedereiddeph12 :  when genergy2==0,die;
+         to ididmedereididpi13 :  when true,connsensor1gateway2;
+ state mededemereididph12 : 
+         to mededeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to mededemereiddeph12 :  when genergy2==0,die;
+         to mededemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to mededeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to mededemereididpi13 :  when true,connsensor1gateway2;
+ state mememeidreidtrph12 : 
+         to mememeidreidtrpi13 :  when true,connsensor1gateway2;
+         to mememedereidtrph12 :  when senergy4==0,dies;
+         to memememereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state dememeidreiddeph12 : 
+         to dememeidreiddepi13 :  when true,connsensor1gateway2;
+         to demememereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dememeidreididph12 :  when true,charge with genergy2=100;
+         to dememedereiddeph12 :  when senergy4==0,dies;
+ state meidmemereidtrph12 : 
+         to meidmemereidtrpi13 :  when true,connsensor1gateway2;
+ state medemedereididph12 : 
+         to medemedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to medemeidreididph12 :  when true,charges with senergy4=100;
+         to medemedereiddeph12 :  when genergy2==0,die;
+         to medemedereididpi13 :  when true,connsensor1gateway2;
+ state deiddeidreidtrph12 : 
+         to deiddeidreidtrpi13 :  when true,connsensor1gateway2;
+         to deiddedereidtrph12 :  when senergy4==0,dies;
+         to deiddemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmedemereididph12 : 
+         to idmedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to idmedemereiddeph12 :  when genergy2==0,die;
+         to idmedemereididpi13 :  when true,connsensor1gateway2;
+         to idmedeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to idmedemereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state mededeidreiddeph12 : 
+         to mededemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to mededeidreiddepi13 :  when true,connsensor1gateway2;
+         to mededeidreididph12 :  when true,charge with genergy2=100;
+         to medededereiddeph12 :  when senergy4==0,dies;
+ state demeiddereiddeph12 : 
+         to demeiddereididph12 :  when true,charge with genergy2=100;
+         to demeiddereiddepi13 :  when true,connsensor1gateway2;
+         to demeididreiddeph12 :  when true,charges with senergy4=100;
+ state idmeidmereidtrph12 : 
+         to idmeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state memeiddereiddeph12 : 
+         to memeiddereididph12 :  when true,charge with genergy2=100;
+         to memeididreiddeph12 :  when true,charges with senergy4=100;
+         to memeiddereiddepi13 :  when true,connsensor1gateway2;
+ state meidididreidtrph12 : 
+         to meididmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to meididdereidtrph12 :  when senergy4==0,dies;
+         to meidididreidtrpi13 :  when true,connsensor1gateway2;
+ state idmeididreididph12 : 
+         to idmeiddereididph12 :  when senergy4==0,dies;
+         to idmeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmeididreididpi13 :  when true,connsensor1gateway2;
+         to idmeididreiddeph12 :  when genergy2==0,die;
+ state idmemedereidtrph12 : 
+         to idmemeidreidtrph12 :  when true,charges with senergy4=100;
+         to idmemedereidtrpi13 :  when true,connsensor1gateway2;
+ state dedeiddereiddeph12 : 
+         to dedeididreiddeph12 :  when true,charges with senergy4=100;
+         to dedeiddereiddepi13 :  when true,connsensor1gateway2;
+         to dedeiddereididph12 :  when true,charge with genergy2=100;
+ state idididmereididph12 : 
+         to ididididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to idididmereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idididmereiddeph12 :  when genergy2==0,die;
+         to ididididreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to idididmereididpi13 :  when true,connsensor1gateway2;
+ state medeididreidtrph12 : 
+         to medeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to medeiddereidtrph12 :  when senergy4==0,dies;
+         to medeididreidtrpi13 :  when true,connsensor1gateway2;
+ state meiddedereiddeph12 : 
+         to meiddedereiddepi13 :  when true,connsensor1gateway2;
+         to meiddedereididph12 :  when true,charge with genergy2=100;
+         to meiddeidreiddeph12 :  when true,charges with senergy4=100;
+ state memeidmereiddeph12 : 
+         to memeidmereididph12 :  when true,charge with genergy2=100;
+         to memeidmereiddepi13 :  when true,connsensor1gateway2;
+ state iddedeidreididph12 : 
+         to iddedeidreididpi13 :  when true,connsensor1gateway2;
+         to iddedemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to iddededereididph12 :  when senergy4==0,dies;
+         to iddedeidreiddeph12 :  when genergy2==0,die;
+         to iddedeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state meidididreiddeph12 : 
+         to meididdereiddeph12 :  when senergy4==0,dies;
+         to meidididreididph12 :  when true,charge with genergy2=100;
+         to meidididreiddepi13 :  when true,connsensor1gateway2;
+         to meididmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state meidididreididph12 : 
+         to meidididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to meidididreiddeph12 :  when genergy2==0,die;
+         to meididdereididph12 :  when senergy4==0,dies;
+         to meididmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to meidididreididpi13 :  when true,connsensor1gateway2;
+ state idmeidmereiddeph12 : 
+         to idmeidmereididph12 :  when true,charge with genergy2=100;
+         to idmeidmereiddepi13 :  when true,connsensor1gateway2;
+ state deidmedereididph12 : 
+         to deidmedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to deidmedereididpi13 :  when true,connsensor1gateway2;
+         to deidmeidreididph12 :  when true,charges with senergy4=100;
+         to deidmedereiddeph12 :  when genergy2==0,die;
+ state iddeiddereiddeph12 : 
+         to iddeiddereididph12 :  when true,charge with genergy2=100;
+         to iddeiddereiddepi13 :  when true,connsensor1gateway2;
+         to iddeididreiddeph12 :  when true,charges with senergy4=100;
+ state demededereiddeph12 : 
+         to demedeidreiddeph12 :  when true,charges with senergy4=100;
+         to demededereididph12 :  when true,charge with genergy2=100;
+         to demededereiddepi13 :  when true,connsensor1gateway2;
+ state dedeidmereidtrph12 : 
+         to dedeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state iddeididreiddeph12 : 
+         to iddeiddereiddeph12 :  when senergy4==0,dies;
+         to iddeididreiddepi13 :  when true,connsensor1gateway2;
+         to iddeididreididph12 :  when true,charge with genergy2=100;
+         to iddeidmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state ididdemereidtrph12 : 
+         to ididdemereidtrpi13 :  when true,connsensor1gateway2;
+ state demedemereiddeph12 : 
+         to demedemereiddepi13 :  when true,connsensor1gateway2;
+         to demedemereididph12 :  when true,charge with genergy2=100;
+ state idmeididreidtrph12 : 
+         to idmeiddereidtrph12 :  when senergy4==0,dies;
+         to idmeidmereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmeididreidtrpi13 :  when true,connsensor1gateway2;
+ state iddememereididph12 : 
+         to iddememereididpi13 :  when true,connsensor1gateway2;
+         to iddemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,gnum2=gnum2+1;
+         to iddemeidreididph12 :  when true and gnum2<gbs2,send with senergy4=senergy4-1,critical=1,gnum2=gnum2+1;
+         to iddememereiddeph12 :  when genergy2==0,die;
+         to iddememereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state mememedereiddeph12 : 
+         to mememedereiddepi13 :  when true,connsensor1gateway2;
+         to mememedereididph12 :  when true,charge with genergy2=100;
+         to mememeidreiddeph12 :  when true,charges with senergy4=100;
+ state demededereididph12 : 
+         to demededereiddeph12 :  when genergy2==0,die;
+         to demedeidreididph12 :  when true,charges with senergy4=100;
+         to demededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to demededereididpi13 :  when true,connsensor1gateway2;
+ state deididmereidtrph12 : 
+         to deididmereidtrpi13 :  when true,connsensor1gateway2;
+ state demeidmereidtrph12 : 
+         to demeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state medeidmereidtrph12 : 
+         to medeidmereidtrpi13 :  when true,connsensor1gateway2;
+ state idmeiddereiddeph12 : 
+         to idmeididreiddeph12 :  when true,charges with senergy4=100;
+         to idmeiddereiddepi13 :  when true,connsensor1gateway2;
+         to idmeiddereididph12 :  when true,charge with genergy2=100;
+ state meiddemereidtrph12 : 
+         to meiddemereidtrpi13 :  when true,connsensor1gateway2;
+ state dememeidreididph12 : 
+         to dememedereididph12 :  when senergy4==0,dies;
+         to dememeidreididpi13 :  when true,connsensor1gateway2;
+         to demememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to dememeidreiddeph12 :  when genergy2==0,die;
+         to dememeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state deidididreiddeph12 : 
+         to deidididreididph12 :  when true,charge with genergy2=100;
+         to deididmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to deididdereiddeph12 :  when senergy4==0,dies;
+         to deidididreiddepi13 :  when true,connsensor1gateway2;
+ state ididididreiddeph12 : 
+         to ididididreiddepi13 :  when true,connsensor1gateway2;
+         to idididdereiddeph12 :  when senergy4==0,dies;
+         to ididididreididph12 :  when true,charge with genergy2=100;
+         to idididmereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmededereididph12 : 
+         to idmededereididpi13 :  when true,connsensor1gateway2;
+         to idmededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmededereiddeph12 :  when genergy2==0,die;
+         to idmedeidreididph12 :  when true,charges with senergy4=100;
+ state demememereidtrph12 : 
+         to demememereidtrpi13 :  when true,connsensor1gateway2;
+ state memeididreididph12 : 
+         to memeididreiddeph12 :  when genergy2==0,die;
+         to memeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to memeiddereididph12 :  when senergy4==0,dies;
+         to memeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to memeididreididpi13 :  when true,connsensor1gateway2;
+ state demeiddereidtrph12 : 
+         to demeiddereidtrpi13 :  when true,connsensor1gateway2;
+         to demeididreidtrph12 :  when true,charges with senergy4=100;
+ state iddedemereidtrph12 : 
+         to iddedemereidtrpi13 :  when true,connsensor1gateway2;
+ state ididdeidreididph12 : 
+         to ididdedereididph12 :  when senergy4==0,dies;
+         to ididdeidreididpi13 :  when true,connsensor1gateway2;
+         to ididdeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to ididdeidreiddeph12 :  when genergy2==0,die;
+         to ididdemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmeiddereididph12 : 
+         to idmeididreididph12 :  when true,charges with senergy4=100;
+         to idmeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to idmeiddereididpi13 :  when true,connsensor1gateway2;
+         to idmeiddereiddeph12 :  when genergy2==0,die;
+ state idmededereidtrph12 : 
+         to idmedeidreidtrph12 :  when true,charges with senergy4=100;
+         to idmededereidtrpi13 :  when true,connsensor1gateway2;
+ state iddemeidreididph12 : 
+         to iddemeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to iddemeidreididpi13 :  when true,connsensor1gateway2;
+         to iddememereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to iddemedereididph12 :  when senergy4==0,dies;
+         to iddemeidreiddeph12 :  when genergy2==0,die;
+ state medeiddereididph12 : 
+         to medeiddereiddeph12 :  when genergy2==0,die;
+         to medeiddereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to medeiddereididpi13 :  when true,connsensor1gateway2;
+         to medeididreididph12 :  when true,charges with senergy4=100;
+ state dededemereiddeph12 : 
+         to dededemereiddepi13 :  when true,connsensor1gateway2;
+         to dededemereididph12 :  when true,charge with genergy2=100;
+ state dedededereididph12 : 
+         to dedededereiddeph12 :  when genergy2==0,die;
+         to dededeidreididph12 :  when true,charges with senergy4=100;
+         to dedededereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to dedededereididpi13 :  when true,connsensor1gateway2;
+ state iddededereiddeph12 : 
+         to iddededereiddepi13 :  when true,connsensor1gateway2;
+         to iddededereididph12 :  when true,charge with genergy2=100;
+         to iddedeidreiddeph12 :  when true,charges with senergy4=100;
+ state iddeiddereidtrph12 : 
+         to iddeiddereidtrpi13 :  when true,connsensor1gateway2;
+         to iddeididreidtrph12 :  when true,charges with senergy4=100;
+ state mememedereididph12 : 
+         to mememedereiddeph12 :  when genergy2==0,die;
+         to mememeidreididph12 :  when true,charges with senergy4=100;
+         to mememedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to mememedereididpi13 :  when true,connsensor1gateway2;
+ state deidmemereiddeph12 : 
+         to deidmemereididph12 :  when true,charge with genergy2=100;
+         to deidmemereiddepi13 :  when true,connsensor1gateway2;
+ state meidmemereiddeph12 : 
+         to meidmemereididph12 :  when true,charge with genergy2=100;
+         to meidmemereiddepi13 :  when true,connsensor1gateway2;
+ state medeididreididph12 : 
+         to medeiddereididph12 :  when senergy4==0,dies;
+         to medeididreiddeph12 :  when genergy2==0,die;
+         to medeididreididpi13 :  when true,connsensor1gateway2;
+         to medeididreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+         to medeidmereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state ididdeidreiddeph12 : 
+         to ididdeidreiddepi13 :  when true,connsensor1gateway2;
+         to ididdemereiddeph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to ididdeidreididph12 :  when true,charge with genergy2=100;
+         to ididdedereiddeph12 :  when senergy4==0,dies;
+ state meiddeidreidtrph12 : 
+         to meiddeidreidtrpi13 :  when true,connsensor1gateway2;
+         to meiddedereidtrph12 :  when senergy4==0,dies;
+         to meiddemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+ state idmedeidreididph12 : 
+         to idmedeidreiddeph12 :  when genergy2==0,die;
+         to idmedemereididph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to idmedeidreididpi13 :  when true,connsensor1gateway2;
+         to idmededereididph12 :  when senergy4==0,dies;
+         to idmedeidreidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state demedeidreidtrph12 : 
+         to demedemereidtrph12 :  when 2<=senergy4,measure with senergy4=senergy4-1,snnum4=snnum4+1;
+         to demedeidreidtrpi13 :  when true,connsensor1gateway2;
+         to demededereidtrph12 :  when senergy4==0,dies;
+ state dedemedereiddeph12 : 
+         to dedemedereiddepi13 :  when true,connsensor1gateway2;
+         to dedemedereididph12 :  when true,charge with genergy2=100;
+         to dedemeidreiddeph12 :  when true,charges with senergy4=100;
+ state meiddedereididph12 : 
+         to meiddedereiddeph12 :  when genergy2==0,die;
+         to meiddedereididpi13 :  when true,connsensor1gateway2;
+         to meiddeidreididph12 :  when true,charges with senergy4=100;
+         to meiddedereidtrph12 :  when 0<gnum2 and 2<=genergy2,process with genergy2=genergy2-1;
+ state idididdereidtrpi13 : 
+         to idididdereidtrpi13 :  when true , reconfig; 
+ state iddemedereididpi13 : 
+         to iddemedereididpi13 :  when true , reconfig; 
+ state dedememereiddepi13 : 
+         to dedememereiddepi13 :  when true , reconfig; 
+ state dededeidreididpi13 : 
+         to dededeidreididpi13 :  when true , reconfig; 
+ state medemeidreidtrpi13 : 
+         to medemeidreidtrpi13 :  when true , reconfig; 
+ state mememeidreididpi13 : 
+         to mememeidreididpi13 :  when true , reconfig; 
+ state medeiddereiddepi13 : 
+         to medeiddereiddepi13 :  when true , reconfig; 
+ state ididdeidreidtrpi13 : 
+         to ididdeidreidtrpi13 :  when true , reconfig; 
+ state memeididreiddepi13 : 
+         to memeididreiddepi13 :  when true , reconfig; 
+ state mededeidreidtrpi13 : 
+         to mededeidreidtrpi13 :  when true , reconfig; 
+ state memedemereididpi13 : 
+         to memedemereididpi13 :  when true , reconfig; 
+ state deididmereiddepi13 : 
+         to deididmereiddepi13 :  when true , reconfig; 
+ state idididmereiddepi13 : 
+         to idididmereiddepi13 :  when true , reconfig; 
+ state memememereidtrpi13 : 
+         to memememereidtrpi13 :  when true , reconfig; 
+ state iddemeidreiddepi13 : 
+         to iddemeidreiddepi13 :  when true , reconfig; 
+ state memedeidreiddepi13 : 
+         to memedeidreiddepi13 :  when true , reconfig; 
+ state dememedereididpi13 : 
+         to dememedereididpi13 :  when true , reconfig; 
+ state mememeidreiddepi13 : 
+         to mememeidreiddepi13 :  when true , reconfig; 
+ state deiddemereiddepi13 : 
+         to deiddemereiddepi13 :  when true , reconfig; 
+ state dememedereidtrpi13 : 
+         to dememedereidtrpi13 :  when true , reconfig; 
+ state ididmemereidtrpi13 : 
+         to ididmemereidtrpi13 :  when true , reconfig; 
+ state memeiddereididpi13 : 
+         to memeiddereididpi13 :  when true , reconfig; 
+ state deiddemereididpi13 : 
+         to deiddemereididpi13 :  when true , reconfig; 
+ state ididmeidreididpi13 : 
+         to ididmeidreididpi13 :  when true , reconfig; 
+ state deididdereididpi13 : 
+         to deididdereididpi13 :  when true , reconfig; 
+ state medeidmereididpi13 : 
+         to medeidmereididpi13 :  when true , reconfig; 
+ state medededereidtrpi13 : 
+         to medededereidtrpi13 :  when true , reconfig; 
+ state meidmedereiddepi13 : 
+         to meidmedereiddepi13 :  when true , reconfig; 
+ state iddeidmereiddepi13 : 
+         to iddeidmereiddepi13 :  when true , reconfig; 
+ state idmemedereididpi13 : 
+         to idmemedereididpi13 :  when true , reconfig; 
+ state medememereiddepi13 : 
+         to medememereiddepi13 :  when true , reconfig; 
+ state medemedereiddepi13 : 
+         to medemedereiddepi13 :  when true , reconfig; 
+ state mememedereidtrpi13 : 
+         to mememedereidtrpi13 :  when true , reconfig; 
+ state demeidmereiddepi13 : 
+         to demeidmereiddepi13 :  when true , reconfig; 
+ state demedeidreididpi13 : 
+         to demedeidreididpi13 :  when true , reconfig; 
+ state demeiddereididpi13 : 
+         to demeiddereididpi13 :  when true , reconfig; 
+ state memedeidreidtrpi13 : 
+         to memedeidreidtrpi13 :  when true , reconfig; 
+ state idmedeidreiddepi13 : 
+         to idmedeidreiddepi13 :  when true , reconfig; 
+ state iddemeidreidtrpi13 : 
+         to iddemeidreidtrpi13 :  when true , reconfig; 
+ state meidmeidreididpi13 : 
+         to meidmeidreididpi13 :  when true , reconfig; 
+ state dededeidreiddepi13 : 
+         to dededeidreiddepi13 :  when true , reconfig; 
+ state idididmereidtrpi13 : 
+         to idididmereidtrpi13 :  when true , reconfig; 
+ state deididmereididpi13 : 
+         to deididmereididpi13 :  when true , reconfig; 
+ state iddedemereididpi13 : 
+         to iddedemereididpi13 :  when true , reconfig; 
+ state memememereiddepi13 : 
+         to memememereiddepi13 :  when true , reconfig; 
+ state idmemeidreiddepi13 : 
+         to idmemeidreiddepi13 :  when true , reconfig; 
+ state memememereididpi13 : 
+         to memememereididpi13 :  when true , reconfig; 
+ state idmedemereiddepi13 : 
+         to idmedemereiddepi13 :  when true , reconfig; 
+ state meididmereidtrpi13 : 
+         to meididmereidtrpi13 :  when true , reconfig; 
+ state deidmedereidtrpi13 : 
+         to deidmedereidtrpi13 :  when true , reconfig; 
+ state deiddedereididpi13 : 
+         to deiddedereididpi13 :  when true , reconfig; 
+ state iddeididreidtrpi13 : 
+         to iddeididreidtrpi13 :  when true , reconfig; 
+ state meiddemereididpi13 : 
+         to meiddemereididpi13 :  when true , reconfig; 
+ state dedemeidreididpi13 : 
+         to dedemeidreididpi13 :  when true , reconfig; 
+ state medememereidtrpi13 : 
+         to medememereidtrpi13 :  when true , reconfig; 
+ state memeiddereidtrpi13 : 
+         to memeiddereidtrpi13 :  when true , reconfig; 
+ state meiddedereidtrpi13 : 
+         to meiddedereidtrpi13 :  when true , reconfig; 
+ state meididmereididpi13 : 
+         to meididmereididpi13 :  when true , reconfig; 
+ state memeididreidtrpi13 : 
+         to memeididreidtrpi13 :  when true , reconfig; 
+ state mededemereidtrpi13 : 
+         to mededemereidtrpi13 :  when true , reconfig; 
+ state demeididreididpi13 : 
+         to demeididreididpi13 :  when true , reconfig; 
+ state iddemedereidtrpi13 : 
+         to iddemedereidtrpi13 :  when true , reconfig; 
+ state deidididreidtrpi13 : 
+         to deidididreidtrpi13 :  when true , reconfig; 
+ state idmememereididpi13 : 
+         to idmememereididpi13 :  when true , reconfig; 
+ state ididmemereididpi13 : 
+         to ididmemereididpi13 :  when true , reconfig; 
+ state dedeidmereiddepi13 : 
+         to dedeidmereiddepi13 :  when true , reconfig; 
+ state idmededereiddepi13 : 
+         to idmededereiddepi13 :  when true , reconfig; 
+ state idmeiddereidtrpi13 : 
+         to idmeiddereidtrpi13 :  when true , reconfig; 
+ state meidmeidreiddepi13 : 
+         to meidmeidreiddepi13 :  when true , reconfig; 
+ state dedemedereidtrpi13 : 
+         to dedemedereidtrpi13 :  when true , reconfig; 
+ state memededereididpi13 : 
+         to memededereididpi13 :  when true , reconfig; 
+ state iddeidmereidtrpi13 : 
+         to iddeidmereidtrpi13 :  when true , reconfig; 
+ state deidididreididpi13 : 
+         to deidididreididpi13 :  when true , reconfig; 
+ state dedeiddereidtrpi13 : 
+         to dedeiddereidtrpi13 :  when true , reconfig; 
+ state iddeididreididpi13 : 
+         to iddeididreididpi13 :  when true , reconfig; 
+ state ididdemereididpi13 : 
+         to ididdemereididpi13 :  when true , reconfig; 
+ state medemeidreididpi13 : 
+         to medemeidreididpi13 :  when true , reconfig; 
+ state deididdereidtrpi13 : 
+         to deididdereidtrpi13 :  when true , reconfig; 
+ state ididmemereiddepi13 : 
+         to ididmemereiddepi13 :  when true , reconfig; 
+ state deiddeidreiddepi13 : 
+         to deiddeidreiddepi13 :  when true , reconfig; 
+ state idmedeidreidtrpi13 : 
+         to idmedeidreidtrpi13 :  when true , reconfig; 
+ state ididdedereiddepi13 : 
+         to ididdedereiddepi13 :  when true , reconfig; 
+ state meidmedereididpi13 : 
+         to meidmedereididpi13 :  when true , reconfig; 
+ state medeididreiddepi13 : 
+         to medeididreiddepi13 :  when true , reconfig; 
+ state deidmedereiddepi13 : 
+         to deidmedereiddepi13 :  when true , reconfig; 
+ state ididdemereiddepi13 : 
+         to ididdemereiddepi13 :  when true , reconfig; 
+ state memededereidtrpi13 : 
+         to memededereidtrpi13 :  when true , reconfig; 
+ state medeidmereiddepi13 : 
+         to medeidmereiddepi13 :  when true , reconfig; 
+ state deiddedereidtrpi13 : 
+         to deiddedereidtrpi13 :  when true , reconfig; 
+ state dedemedereididpi13 : 
+         to dedemedereididpi13 :  when true , reconfig; 
+ state medeiddereidtrpi13 : 
+         to medeiddereidtrpi13 :  when true , reconfig; 
+ state meididdereididpi13 : 
+         to meididdereididpi13 :  when true , reconfig; 
+ state meididmereiddepi13 : 
+         to meididmereiddepi13 :  when true , reconfig; 
+ state deiddemereidtrpi13 : 
+         to deiddemereidtrpi13 :  when true , reconfig; 
+ state memededereiddepi13 : 
+         to memededereiddepi13 :  when true , reconfig; 
+ state iddedemereiddepi13 : 
+         to iddedemereiddepi13 :  when true , reconfig; 
+ state ididdedereidtrpi13 : 
+         to ididdedereidtrpi13 :  when true , reconfig; 
+ state memeidmereididpi13 : 
+         to memeidmereididpi13 :  when true , reconfig; 
+ state demededereidtrpi13 : 
+         to demededereidtrpi13 :  when true , reconfig; 
+ state ididdedereididpi13 : 
+         to ididdedereididpi13 :  when true , reconfig; 
+ state deidmeidreiddepi13 : 
+         to deidmeidreiddepi13 :  when true , reconfig; 
+ state deididdereiddepi13 : 
+         to deididdereiddepi13 :  when true , reconfig; 
+ state meidmedereidtrpi13 : 
+         to meidmedereidtrpi13 :  when true , reconfig; 
+ state iddedeidreidtrpi13 : 
+         to iddedeidreidtrpi13 :  when true , reconfig; 
+ state deidmemereidtrpi13 : 
+         to deidmemereidtrpi13 :  when true , reconfig; 
+ state memedemereidtrpi13 : 
+         to memedemereidtrpi13 :  when true , reconfig; 
+ state meidmeidreidtrpi13 : 
+         to meidmeidreidtrpi13 :  when true , reconfig; 
+ state meiddeidreiddepi13 : 
+         to meiddeidreiddepi13 :  when true , reconfig; 
+ state iddededereididpi13 : 
+         to iddededereididpi13 :  when true , reconfig; 
+ state idmememereidtrpi13 : 
+         to idmememereidtrpi13 :  when true , reconfig; 
+ state dedemeidreidtrpi13 : 
+         to dedemeidreidtrpi13 :  when true , reconfig; 
+ state deidmeidreididpi13 : 
+         to deidmeidreididpi13 :  when true , reconfig; 
+ state idididdereiddepi13 : 
+         to idididdereiddepi13 :  when true , reconfig; 
+ state memeidmereidtrpi13 : 
+         to memeidmereidtrpi13 :  when true , reconfig; 
+ state memedeidreididpi13 : 
+         to memedeidreididpi13 :  when true , reconfig; 
+ state iddememereidtrpi13 : 
+         to iddememereidtrpi13 :  when true , reconfig; 
+ state ididmedereiddepi13 : 
+         to ididmedereiddepi13 :  when true , reconfig; 
+ state iddeiddereididpi13 : 
+         to iddeiddereididpi13 :  when true , reconfig; 
+ state ididmedereidtrpi13 : 
+         to ididmedereidtrpi13 :  when true , reconfig; 
+ state demememereididpi13 : 
+         to demememereididpi13 :  when true , reconfig; 
+ state ididmeidreidtrpi13 : 
+         to ididmeidreidtrpi13 :  when true , reconfig; 
+ state deiddeidreididpi13 : 
+         to deiddeidreididpi13 :  when true , reconfig; 
+ state medemeidreiddepi13 : 
+         to medemeidreiddepi13 :  when true , reconfig; 
+ state mededemereiddepi13 : 
+         to mededemereiddepi13 :  when true , reconfig; 
+ state iddemedereiddepi13 : 
+         to iddemedereiddepi13 :  when true , reconfig; 
+ state demeididreiddepi13 : 
+         to demeididreiddepi13 :  when true , reconfig; 
+ state demeidmereididpi13 : 
+         to demeidmereididpi13 :  when true , reconfig; 
+ state medededereididpi13 : 
+         to medededereididpi13 :  when true , reconfig; 
+ state dedememereididpi13 : 
+         to dedememereididpi13 :  when true , reconfig; 
+ state medededereiddepi13 : 
+         to medededereiddepi13 :  when true , reconfig; 
+ state meiddeidreididpi13 : 
+         to meiddeidreididpi13 :  when true , reconfig; 
+ state meiddemereiddepi13 : 
+         to meiddemereiddepi13 :  when true , reconfig; 
+ state dededemereididpi13 : 
+         to dededemereididpi13 :  when true , reconfig; 
+ state dededemereidtrpi13 : 
+         to dededemereidtrpi13 :  when true , reconfig; 
+ state iddedeidreiddepi13 : 
+         to iddedeidreiddepi13 :  when true , reconfig; 
+ state idmedemereidtrpi13 : 
+         to idmedemereidtrpi13 :  when true , reconfig; 
+ state dedemeidreiddepi13 : 
+         to dedemeidreiddepi13 :  when true , reconfig; 
+ state mededeidreididpi13 : 
+         to mededeidreididpi13 :  when true , reconfig; 
+ state demedemereidtrpi13 : 
+         to demedemereidtrpi13 :  when true , reconfig; 
+ state dedeidmereididpi13 : 
+         to dedeidmereididpi13 :  when true , reconfig; 
+ state dememeidreidtrpi13 : 
+         to dememeidreidtrpi13 :  when true , reconfig; 
+ state idmeididreiddepi13 : 
+         to idmeididreiddepi13 :  when true , reconfig; 
+ state ididididreididpi13 : 
+         to ididididreididpi13 :  when true , reconfig; 
+ state dedeididreidtrpi13 : 
+         to dedeididreidtrpi13 :  when true , reconfig; 
+ state ididmeidreiddepi13 : 
+         to ididmeidreiddepi13 :  when true , reconfig; 
+ state demeididreidtrpi13 : 
+         to demeididreidtrpi13 :  when true , reconfig; 
+ state dedededereidtrpi13 : 
+         to dedededereidtrpi13 :  when true , reconfig; 
+ state idmemedereiddepi13 : 
+         to idmemedereiddepi13 :  when true , reconfig; 
+ state dedeididreiddepi13 : 
+         to dedeididreiddepi13 :  when true , reconfig; 
+ state demedemereididpi13 : 
+         to demedemereididpi13 :  when true , reconfig; 
+ state ididididreidtrpi13 : 
+         to ididididreidtrpi13 :  when true , reconfig; 
+ state dededeidreidtrpi13 : 
+         to dededeidreidtrpi13 :  when true , reconfig; 
+ state deidmeidreidtrpi13 : 
+         to deidmeidreidtrpi13 :  when true , reconfig; 
+ state dedememereidtrpi13 : 
+         to dedememereidtrpi13 :  when true , reconfig; 
+ state deidmemereididpi13 : 
+         to deidmemereididpi13 :  when true , reconfig; 
+ state idmememereiddepi13 : 
+         to idmememereiddepi13 :  when true , reconfig; 
+ state iddememereiddepi13 : 
+         to iddememereiddepi13 :  when true , reconfig; 
+ state iddededereidtrpi13 : 
+         to iddededereidtrpi13 :  when true , reconfig; 
+ state medemedereidtrpi13 : 
+         to medemedereidtrpi13 :  when true , reconfig; 
+ state demedeidreiddepi13 : 
+         to demedeidreiddepi13 :  when true , reconfig; 
+ state demememereiddepi13 : 
+         to demememereiddepi13 :  when true , reconfig; 
+ state meidmemereididpi13 : 
+         to meidmemereididpi13 :  when true , reconfig; 
+ state deiddedereiddepi13 : 
+         to deiddedereiddepi13 :  when true , reconfig; 
+ state dedededereiddepi13 : 
+         to dedededereiddepi13 :  when true , reconfig; 
+ state idmemeidreidtrpi13 : 
+         to idmemeidreidtrpi13 :  when true , reconfig; 
+ state iddeidmereididpi13 : 
+         to iddeidmereididpi13 :  when true , reconfig; 
+ state meididdereidtrpi13 : 
+         to meididdereidtrpi13 :  when true , reconfig; 
+ state idmemeidreididpi13 : 
+         to idmemeidreididpi13 :  when true , reconfig; 
+ state idmeidmereididpi13 : 
+         to idmeidmereididpi13 :  when true , reconfig; 
+ state medememereididpi13 : 
+         to medememereididpi13 :  when true , reconfig; 
+ state memedemereiddepi13 : 
+         to memedemereiddepi13 :  when true , reconfig; 
+ state dememedereiddepi13 : 
+         to dememedereiddepi13 :  when true , reconfig; 
+ state dedeididreididpi13 : 
+         to dedeididreididpi13 :  when true , reconfig; 
+ state idididdereididpi13 : 
+         to idididdereididpi13 :  when true , reconfig; 
+ state meididdereiddepi13 : 
+         to meididdereiddepi13 :  when true , reconfig; 
+ state dedeiddereididpi13 : 
+         to dedeiddereididpi13 :  when true , reconfig; 
+ state ididmedereididpi13 : 
+         to ididmedereididpi13 :  when true , reconfig; 
+ state mededemereididpi13 : 
+         to mededemereididpi13 :  when true , reconfig; 
+ state mememeidreidtrpi13 : 
+         to mememeidreidtrpi13 :  when true , reconfig; 
+ state dememeidreiddepi13 : 
+         to dememeidreiddepi13 :  when true , reconfig; 
+ state meidmemereidtrpi13 : 
+         to meidmemereidtrpi13 :  when true , reconfig; 
+ state medemedereididpi13 : 
+         to medemedereididpi13 :  when true , reconfig; 
+ state deiddeidreidtrpi13 : 
+         to deiddeidreidtrpi13 :  when true , reconfig; 
+ state idmedemereididpi13 : 
+         to idmedemereididpi13 :  when true , reconfig; 
+ state mededeidreiddepi13 : 
+         to mededeidreiddepi13 :  when true , reconfig; 
+ state demeiddereiddepi13 : 
+         to demeiddereiddepi13 :  when true , reconfig; 
+ state idmeidmereidtrpi13 : 
+         to idmeidmereidtrpi13 :  when true , reconfig; 
+ state memeiddereiddepi13 : 
+         to memeiddereiddepi13 :  when true , reconfig; 
+ state meidididreidtrpi13 : 
+         to meidididreidtrpi13 :  when true , reconfig; 
+ state idmeididreididpi13 : 
+         to idmeididreididpi13 :  when true , reconfig; 
+ state idmemedereidtrpi13 : 
+         to idmemedereidtrpi13 :  when true , reconfig; 
+ state dedeiddereiddepi13 : 
+         to dedeiddereiddepi13 :  when true , reconfig; 
+ state idididmereididpi13 : 
+         to idididmereididpi13 :  when true , reconfig; 
+ state medeididreidtrpi13 : 
+         to medeididreidtrpi13 :  when true , reconfig; 
+ state meiddedereiddepi13 : 
+         to meiddedereiddepi13 :  when true , reconfig; 
+ state memeidmereiddepi13 : 
+         to memeidmereiddepi13 :  when true , reconfig; 
+ state iddedeidreididpi13 : 
+         to iddedeidreididpi13 :  when true , reconfig; 
+ state meidididreiddepi13 : 
+         to meidididreiddepi13 :  when true , reconfig; 
+ state meidididreididpi13 : 
+         to meidididreididpi13 :  when true , reconfig; 
+ state idmeidmereiddepi13 : 
+         to idmeidmereiddepi13 :  when true , reconfig; 
+ state deidmedereididpi13 : 
+         to deidmedereididpi13 :  when true , reconfig; 
+ state iddeiddereiddepi13 : 
+         to iddeiddereiddepi13 :  when true , reconfig; 
+ state demededereiddepi13 : 
+         to demededereiddepi13 :  when true , reconfig; 
+ state dedeidmereidtrpi13 : 
+         to dedeidmereidtrpi13 :  when true , reconfig; 
+ state iddeididreiddepi13 : 
+         to iddeididreiddepi13 :  when true , reconfig; 
+ state ididdemereidtrpi13 : 
+         to ididdemereidtrpi13 :  when true , reconfig; 
+ state demedemereiddepi13 : 
+         to demedemereiddepi13 :  when true , reconfig; 
+ state idmeididreidtrpi13 : 
+         to idmeididreidtrpi13 :  when true , reconfig; 
+ state iddememereididpi13 : 
+         to iddememereididpi13 :  when true , reconfig; 
+ state mememedereiddepi13 : 
+         to mememedereiddepi13 :  when true , reconfig; 
+ state demededereididpi13 : 
+         to demededereididpi13 :  when true , reconfig; 
+ state deididmereidtrpi13 : 
+         to deididmereidtrpi13 :  when true , reconfig; 
+ state demeidmereidtrpi13 : 
+         to demeidmereidtrpi13 :  when true , reconfig; 
+ state medeidmereidtrpi13 : 
+         to medeidmereidtrpi13 :  when true , reconfig; 
+ state idmeiddereiddepi13 : 
+         to idmeiddereiddepi13 :  when true , reconfig; 
+ state meiddemereidtrpi13 : 
+         to meiddemereidtrpi13 :  when true , reconfig; 
+ state dememeidreididpi13 : 
+         to dememeidreididpi13 :  when true , reconfig; 
+ state deidididreiddepi13 : 
+         to deidididreiddepi13 :  when true , reconfig; 
+ state ididididreiddepi13 : 
+         to ididididreiddepi13 :  when true , reconfig; 
+ state idmededereididpi13 : 
+         to idmededereididpi13 :  when true , reconfig; 
+ state demememereidtrpi13 : 
+         to demememereidtrpi13 :  when true , reconfig; 
+ state memeididreididpi13 : 
+         to memeididreididpi13 :  when true , reconfig; 
+ state demeiddereidtrpi13 : 
+         to demeiddereidtrpi13 :  when true , reconfig; 
+ state iddedemereidtrpi13 : 
+         to iddedemereidtrpi13 :  when true , reconfig; 
+ state ididdeidreididpi13 : 
+         to ididdeidreididpi13 :  when true , reconfig; 
+ state idmeiddereididpi13 : 
+         to idmeiddereididpi13 :  when true , reconfig; 
+ state idmededereidtrpi13 : 
+         to idmededereidtrpi13 :  when true , reconfig; 
+ state iddemeidreididpi13 : 
+         to iddemeidreididpi13 :  when true , reconfig; 
+ state medeiddereididpi13 : 
+         to medeiddereididpi13 :  when true , reconfig; 
+ state dededemereiddepi13 : 
+         to dededemereiddepi13 :  when true , reconfig; 
+ state dedededereididpi13 : 
+         to dedededereididpi13 :  when true , reconfig; 
+ state iddededereiddepi13 : 
+         to iddededereiddepi13 :  when true , reconfig; 
+ state iddeiddereidtrpi13 : 
+         to iddeiddereidtrpi13 :  when true , reconfig; 
+ state mememedereididpi13 : 
+         to mememedereididpi13 :  when true , reconfig; 
+ state deidmemereiddepi13 : 
+         to deidmemereiddepi13 :  when true , reconfig; 
+ state meidmemereiddepi13 : 
+         to meidmemereiddepi13 :  when true , reconfig; 
+ state medeididreididpi13 : 
+         to medeididreididpi13 :  when true , reconfig; 
+ state ididdeidreiddepi13 : 
+         to ididdeidreiddepi13 :  when true , reconfig; 
+ state meiddeidreidtrpi13 : 
+         to meiddeidreidtrpi13 :  when true , reconfig; 
+ state idmedeidreididpi13 : 
+         to idmedeidreididpi13 :  when true , reconfig; 
+ state demedeidreidtrpi13 : 
+         to demedeidreidtrpi13 :  when true , reconfig; 
+ state dedemedereiddepi13 : 
+         to dedemedereiddepi13 :  when true , reconfig; 
+ state meiddedereididpi13 : 
+         to meiddedereididpi13 :  when true , reconfig; 
+
+
+bad_states : 
+state idididdereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idididmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididdereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idididmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididdereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididdereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididdereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idididdereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demememereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididdereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeidmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memedemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idididdereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meididdereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididmedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medemedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deiddeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedemereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mededeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmemedereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idididmereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeidmereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeididreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddememereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deididmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeidmereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeiddereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dememeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididididreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demememereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state memeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddedemereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmededereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddemeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeiddereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dededemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedededereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddededereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state iddeiddereidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state mememedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state deidmemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meidmemereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state medeididreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state ididdeidreiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state idmedeidreididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state demedeidreidtrph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state dedemedereiddeph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+state meiddedereididph12 : gnum2+srnum1<=snnum1+snnum2+snnum3+snnum4
+
+ state deidmeidreiddepi13 : true
+ state ididdedereiddepi13 : true
+ state ididididreididpi13 : true
+ state demededereidtrpi13 : true
+ state medemeidreidtrpi13 : true
+ state meiddeidreiddepi13 : true
+ state dededeidreididpi13 : true
+ state dededeidreidtrpi13 : true
+ state deidididreidtrpi13 : true
+ state iddememereidtrpi13 : true
+ state iddedemereididpi13 : true
+ state meididmereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state mememedereididpi13 : true
+ state medememereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state memededereiddepi13 : true
+ state medeidmereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state meidmedereiddepi13 : true
+ state ididmemereiddepi13 : true
+ state dedededereiddepi13 : true
+ state deididdereidtrpi13 : true
+ state idmeididreidtrpi13 : true
+ state idmemedereididpi13 : true
+ state dededeidreiddepi13 : true
+ state medemeidreididpi13 : true
+ state memedeidreidtrpi13 : true
+ state medemedereidtrpi13 : true
+ state deidmedereidtrpi13 : true
+ state iddeiddereiddepi13 : true
+ state demededereididpi13 : true
+ state iddemedereididpi13 : true
+ state iddeiddereidtrpi13 : true
+ state dedememereididpi13 : true
+ state idmededereididpi13 : true
+ state idmeiddereiddepi13 : true
+ state iddeididreididpi13 : true
+ state ididididreidtrpi13 : true
+ state idididmereididpi13 : true
+ state memeididreidtrpi13 : true
+ state idmemedereidtrpi13 : true
+ state idmeididreididpi13 : true
+ state ididdeidreidtrpi13 : true
+ state mememeidreididpi13 : true
+ state meiddeidreidtrpi13 : true
+ state iddemedereiddepi13 : true
+ state meidididreiddepi13 : true
+ state dedeidmereidtrpi13 : true
+ state ididmeidreidtrpi13 : true
+ state iddeiddereididpi13 : true
+ state idididmereiddepi13 : true
+ state demedeidreididpi13 : true
+ state deididmereidtrpi13 : true
+ state mememeidreidtrpi13 : true
+ state demedemereiddepi13 : true
+ state memedeidreididpi13 : true
+ state memededereidtrpi13 : true
+ state dedemedereidtrpi13 : true
+ state iddememereiddepi13 : true
+ state medeiddereiddepi13 : true
+ state idmemeidreididpi13 : true
+ state meidididreidtrpi13 : true
+ state dedemedereididpi13 : true
+ state medededereiddepi13 : true
+ state ididmemereidtrpi13 : true
+ state memeiddereiddepi13 : true
+ state idmememereididpi13 : true
+ state memeidmereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state iddemeidreididpi13 : true
+ state medeiddereididpi13 : true
+ state meididdereididpi13 : true
+ state memedemereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state demedeidreidtrpi13 : true
+ state memememereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state memedemereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state iddeidmereididpi13 : true
+ state iddeididreidtrpi13 : true
+ state deiddedereididpi13 : true
+ state idididmereidtrpi13 : true
+ state memeiddereidtrpi13 : true
+ state meidmeidreiddepi13 : true
+ state dedememereidtrpi13 : true
+ state deiddemereidtrpi13 : true
+ state idmemedereiddepi13 : true
+ state deididmereididpi13 : true
+ state demeidmereidtrpi13 : true
+ state mededeidreididpi13 : true
+ state meididmereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state demedeidreiddepi13 : true
+ state idmedeidreididpi13 : true
+ state mememedereiddepi13 : true
+ state ididdedereidtrpi13 : true
+ state dedememereiddepi13 : true
+ state iddededereidtrpi13 : true
+ state dedemeidreidtrpi13 : true
+ state dedededereididpi13 : true
+ state ididididreiddepi13 : true
+ state idmeiddereididpi13 : true
+ state demeidmereididpi13 : true
+ state mememedereidtrpi13 : true
+ state iddemedereidtrpi13 : true
+ state iddemeidreidtrpi13 : true
+ state idmedemereiddepi13 : true
+ state deidmeidreidtrpi13 : true
+ state ididdemereididpi13 : true
+ state medemeidreiddepi13 : true
+ state iddedemereidtrpi13 : true
+ state demeididreididpi13 : true
+ state mededeidreidtrpi13 : true
+ state deidmedereididpi13 : true
+ state medededereidtrpi13 : true
+ state demememereididpi13 : true
+ state idmememereiddepi13 : true
+ state meiddedereididpi13 : true
+ state dededemereididpi13 : true
+ state mememeidreiddepi13 : true
+ state dededemereiddepi13 : true
+ state demememereidtrpi13 : true
+ state idmeidmereiddepi13 : true
+ state dememedereiddepi13 : true
+ state meidmemereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state deidmeidreididpi13 : true
+ state idmedeidreiddepi13 : true
+ state deidmedereiddepi13 : true
+ state dedeidmereiddepi13 : true
+ state ididmedereidtrpi13 : true
+ state dememedereidtrpi13 : true
+ state medememereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state ididmemereididpi13 : true
+ state meidmedereididpi13 : true
+ state idmedemereidtrpi13 : true
+ state dedededereidtrpi13 : true
+ state demeiddereiddepi13 : true
+ state idmeidmereididpi13 : true
+ state memededereididpi13 : true
+ state mededemereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dememeidreidtrpi13 : true
+ state mededemereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dememedereididpi13 : true
+ state meiddemereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state ididmeidreiddepi13 : true
+ state dededemereidtrpi13 : true
+ state ididdeidreiddepi13 : true
+ state deidididreididpi13 : true
+ state demememereiddepi13 : true
+ state medeiddereidtrpi13 : true
+ state medememereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state meiddeidreididpi13 : true
+ state deidididreiddepi13 : true
+ state meiddedereidtrpi13 : true
+ state mededeidreiddepi13 : true
+ state memeidmereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state meidmemereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dedeiddereiddepi13 : true
+ state medededereididpi13 : true
+ state dememeidreiddepi13 : true
+ state dedemedereiddepi13 : true
+ state medeididreiddepi13 : true
+ state deididdereididpi13 : true
+ state deidmemereiddepi13 : true
+ state demedemereidtrpi13 : true
+ state medeididreidtrpi13 : true
+ state deidmemereidtrpi13 : true
+ state iddemeidreiddepi13 : true
+ state ididmedereididpi13 : true
+ state meididdereidtrpi13 : true
+ state dedeididreidtrpi13 : true
+ state medeididreididpi13 : true
+ state demedemereididpi13 : true
+ state iddememereididpi13 : true
+ state deidmemereididpi13 : true
+ state dedeidmereididpi13 : true
+ state meididdereiddepi13 : true
+ state deiddedereiddepi13 : true
+ state medeidmereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state idmedeidreidtrpi13 : true
+ state meidmeidreididpi13 : true
+ state deididmereiddepi13 : true
+ state demeidmereiddepi13 : true
+ state memeididreididpi13 : true
+ state meiddedereiddepi13 : true
+ state idmededereiddepi13 : true
+ state idmeidmereidtrpi13 : true
+ state deiddemereididpi13 : true
+ state demeiddereididpi13 : true
+ state deiddeidreiddepi13 : true
+ state iddedemereiddepi13 : true
+ state ididmeidreididpi13 : true
+ state deididdereiddepi13 : true
+ state meiddemereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state idmemeidreidtrpi13 : true
+ state memeiddereididpi13 : true
+ state deiddedereidtrpi13 : true
+ state mededemereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dedeididreididpi13 : true
+ state memememereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state ididdedereididpi13 : true
+ state memeidmereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state idmeiddereidtrpi13 : true
+ state medemedereiddepi13 : true
+ state demeididreiddepi13 : true
+ state meidmedereidtrpi13 : true
+ state meidididreididpi13 : true
+ state demeiddereidtrpi13 : true
+ state idmededereidtrpi13 : true
+ state demeididreidtrpi13 : true
+ state idididdereidtrpi13 : true
+ state deiddeidreididpi13 : true
+ state ididdemereiddepi13 : true
+ state iddeididreiddepi13 : true
+ state ididmedereiddepi13 : true
+ state meididmereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state medemedereididpi13 : true
+ state iddedeidreidtrpi13 : true
+ state iddededereididpi13 : true
+ state dememeidreididpi13 : true
+ state idididdereiddepi13 : true
+ state dedeididreiddepi13 : true
+ state medeidmereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dedeiddereidtrpi13 : true
+ state iddedeidreiddepi13 : true
+ state idmememereidtrpi13 : true
+ state meiddemereiddepi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state idididdereididpi13 : true
+ state ididdeidreididpi13 : true
+ state meidmemereidtrpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state iddeidmereidtrpi13 : true
+ state memememereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dedemeidreididpi13 : true
+ state deiddeidreidtrpi13 : true
+ state idmemeidreiddepi13 : true
+ state iddeidmereiddepi13 : true
+ state dedeiddereididpi13 : true
+ state meidmeidreidtrpi13 : true
+ state demededereiddepi13 : true
+ state ididdemereidtrpi13 : true
+ state idmedemereididpi13 : true
+ state memedemereididpi13 : -gnum2+snnum1+snnum2+snnum3+snnum4-srnum1>=0
+ state dedemeidreiddepi13 : true
+ state iddedeidreididpi13 : true
+ state deiddemereiddepi13 : true
+ state idmeididreiddepi13 : true
+ state memedeidreiddepi13 : true
+ state iddededereiddepi13 : true
+ state memeididreiddepi13 : true
+ controller 1 mask:  
